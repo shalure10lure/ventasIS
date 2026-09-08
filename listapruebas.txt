@@ -1,0 +1,134 @@
+ Lista de casos de prueba TDD
+ 
+Primera iteración — Cálculo básico y validaciones
+Rebanada 1: Calcular precio neto
+cantidad 2, precio $500 → precio neto $1000
+cantidad 1, precio $250 → precio neto $250
+cantidad 10, precio $150 → precio neto $1500
+cantidad 3, precio $25.50 → precio neto $76.50
+Rebanada 2: Validar cantidad
+cantidad 0, precio $500 → error: cantidad debe ser mayor a cero
+cantidad -2, precio $500 → error: cantidad debe ser mayor a cero
+cantidad 1, precio $500 → cantidad válida
+Rebanada 3: Validar precio y datos incompletos
+cantidad 2, precio $0 → error: precio inválido
+cantidad 2, precio -$50 → error: precio inválido
+cantidad "", precio $500 → error: cantidad obligatoria
+cantidad 2, precio "" → error: precio obligatorio
+cantidad "", precio "" → error: datos obligatorios
+Segunda iteración — Descuentos
+Rebanada 4: Descuento según precio neto
+precio neto $500 → descuento 0%
+precio neto $1000 → descuento 3%
+precio neto $2999 → descuento 3%
+precio neto $3000 → descuento 5%
+precio neto $6999 → descuento 5%
+precio neto $7000 → descuento 7%
+precio neto $9999 → descuento 7%
+precio neto $10000 → descuento 10%
+precio neto $29999 → descuento 10%
+precio neto $30000 → descuento 15%
+precio neto $50000 → descuento 15%
+Rebanada 5: Precio después del descuento
+precio $1000, descuento 3% → $970
+precio $3000, descuento 5% → $2850
+precio $7000, descuento 7% → $6510
+precio $10000, descuento 10% → $9000
+precio $30000, descuento 15% → $25500
+Tercera iteración — Estado e impuesto
+Rebanada 6: Seleccionar estado
+estado CA → California
+estado UT → Utah
+estado NV → Nevada
+estado TX → Texas
+estado AL → Alabama
+Rebanada 7: California por defecto
+iniciar compra → estado CA
+iniciar compra sin seleccionar estado → California
+Rebanada 8: Impuesto estatal
+Usando un precio después del descuento de $1000:
+CA → impuesto 8.25% → $82.50
+UT → impuesto 6.65% → $66.50
+NV → impuesto 8% → $80
+TX → impuesto 6.25% → $62.50
+AL → impuesto 4% → $40
+Rebanada 9: Cancelar compra
+datos ingresados → cancelar → formulario vacío
+cantidad 2, precio $500 → cancelar → datos reiniciados
+Rebanada 10: Confirmar compra
+cantidad 2, precio $500 → confirmar → compra finalizada
+cantidad "", precio $500 → confirmar → error y compra no finalizada
+Cuarta iteración — Categoría y envío
+Rebanada 11: Seleccionar categoría
+categoría Alimentos → Alimentos
+categoría Bebidas alcohólicas → Bebidas alcohólicas
+categoría Material de escritorio → Material de escritorio
+categoría Muebles → Muebles
+categoría Electrónicos → Electrónicos
+categoría Vestimenta → Vestimenta
+categoría Varios → Varios
+Rebanada 12: Varios por defecto
+iniciar compra → categoría Varios
+iniciar compra sin seleccionar categoría → Varios
+Rebanada 13: Impuesto adicional por categoría
+Tomando $1000 como base:
+Alimentos → 0% → $0
+Bebidas alcohólicas → 7% → $70
+Material de escritorio → 0% → $0
+Muebles → 3% → $30
+Electrónicos → 4% → $40
+Vestimenta → 2% → $20
+Varios → 0% → $0
+Rebanada 14: Descuento adicional por categoría
+Tomando $1000 como base:
+Alimentos → 2% → $20
+Bebidas alcohólicas → 0% → $0
+Material de escritorio → 1.5% → $15
+Muebles → 0% → $0
+Electrónicos → 1% → $10
+Vestimenta → 0% → $0
+Varios → 0% → $0
+Rebanada 15: Peso volumétrico
+peso 5 → válido
+peso 10 → válido
+peso 12.5 → válido
+peso 0 → error
+peso -5 → error
+Rebanada 16: Costo de envío
+Aquí es importante probar los límites, igual que hiciste con los puntos del tenis:
+cantidad 2, peso 5 → peso total 10 → envío $0
+cantidad 2, peso 5.5 → peso total 11 → envío $3.50
+cantidad 4, peso 5.25 → peso total 21 → envío $5
+cantidad 8, peso 5.125 → peso total 41 → envío $6
+cantidad 9, peso 9 → peso total 81 → envío $6.50
+cantidad 10, peso 10 → peso total 100 → envío $6.50
+cantidad 11, peso 10 → peso total 110 → envío $8
+cantidad 21, peso 10 → peso total 210 → envío $9
+Quinta iteración — Cliente, descuentos y total
+Rebanada 17: Tipo de cliente
+iniciar compra → cliente Normal
+seleccionar Normal → Normal
+seleccionar Recurrente → Recurrente
+seleccionar Antiguo Recurrente → Antiguo Recurrente
+seleccionar Especial → Especial
+Rebanada 18: Descuento de envío
+Tomando un envío de $100:
+Normal → 0% → descuento $0
+Recurrente → 0.5% → descuento $0.50
+Antiguo Recurrente → 1% → descuento $1
+Especial → 1.5% → descuento $1.50
+Rebanada 19: Descuento fijo
+Primera condición
+Recurrente + Alimentos + $3500 → descuento fijo $100
+Recurrente + Alimentos + $3000 → descuento $0
+Normal + Alimentos + $3500 → descuento $0
+Recurrente + Electrónicos + $3500 → descuento $0
+Segunda condición
+Especial + Electrónicos + $8000 → descuento fijo $200
+Especial + Electrónicos + $7000 → descuento $0
+Normal + Electrónicos + $8000 → descuento $0
+Especial + Alimentos + $8000 → descuento $0
+Rebanada 20: Detalle y total final
+cantidad 2, precio $500, CA, Varios, peso 5, Normal → mostrar todos los conceptos y total
+cantidad 10, precio $400, CA, Alimentos, peso 2, Recurrente → mostrar descuentos, impuestos, envío y total
+cantidad 20, precio $500, CA, Electrónicos, peso 5, Especial → mostrar descuento fijo de $200 y total final
