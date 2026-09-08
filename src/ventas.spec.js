@@ -47,4 +47,11 @@ describe("Ventas", () => {
         expect(ventas.calcularPrecioNeto(ventas.cantidad, ventas.precio)).toEqual("Precio Invalido");
     });
 
+    it("deberia validar si la cantidad esta vacio, validar cantidada obligatoria", () => {
+        let ventas = new Ventas();
+        ventas.cantidad = "";
+        ventas.precio = 500;
+        expect(ventas.calcularPrecioNeto(ventas.cantidad, ventas.precio)).toEqual("Cantidad obligatoria");
+    });
+
 });
