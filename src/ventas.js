@@ -1,6 +1,6 @@
 class Ventas {
-    calcularPrecioNeto() {
-        return 2*500;
+    calcularPrecioNeto(cantidad, precio) {
+        return cantidad * precio;
     }
 }
 

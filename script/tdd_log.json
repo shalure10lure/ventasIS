@@ -1,8 +1,14 @@
 [
   {
-    "commitId": "HEAD",
+    "commitId": "edb97366326073c5c2422a036aa96814ab696921",
     "commitName": "feat:deberia calcular el precio neto cuando se ingresan cantidad 2 y precio 500",
     "commitTimestamp": 1788842310556,
     "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:deberia calcular el precio neto cuando se ingresan cantidad 1 y precio 250",
+    "commitTimestamp": 1788842455987,
+    "testId": 1
   }
 ]

@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "edb97366326073c5c2422a036aa96814ab696921",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-08T04:38:28.000Z",
       "message": "feat:deberia calcular el precio neto cuando se ingresan cantidad 2 y precio 500",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/edb97366326073c5c2422a036aa96814ab696921"
     },
     "stats": {
       "total": 25,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-08T04:40:54.000Z",
+      "message": "feat:deberia calcular el precio neto cuando se ingresan cantidad 1 y precio 250",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 9,
+      "deletions": 3,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
