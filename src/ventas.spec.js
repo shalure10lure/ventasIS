@@ -66,4 +66,8 @@ describe("Ventas", () => {
         expect(ventas.calcularPrecioNeto(ventas.cantidad, ventas.precio)).toEqual("Datos obligatorio");
     });
 
+    it("deberia aplicar 0% de descuento cuando el precio neto es 500", () => {
+        let ventas = new Ventas();
+        expect(ventas.calcularDescuento(500)).toEqual("0%");
+    });
 });

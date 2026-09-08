@@ -54,9 +54,15 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e893598055013433cab862f1ef96f9ab716fca4e",
     "commitName": "feat: deberia validar si la cantidad y el precio estan vacios, validar datos obligatorio",
     "commitTimestamp": 1788875335880,
     "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "deberia aplicar 0% de descuento cuando el precio neto es 500",
+    "commitTimestamp": 1788876073748,
+    "testId": 10
   }
 ]

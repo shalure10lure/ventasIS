@@ -17,6 +17,9 @@ class Ventas {
         }
         return cantidad * precio;
     }
+    calcularDescuento(){
+        return "0%";
+    }
 }
 
 export default Ventas;
