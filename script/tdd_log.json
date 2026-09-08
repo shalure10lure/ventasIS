@@ -18,9 +18,15 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f8f63dc5b59727479652dfbbdffa9dd6e881ae1f",
     "commitName": "feat: test de  La cantidad debe ser mayor a 0",
     "commitTimestamp": 1788874309222,
     "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: test de si tenemos una cantidad negativa   La cantidad debe ser mayor a 0",
+    "commitTimestamp": 1788874463984,
+    "testId": 4
   }
 ]

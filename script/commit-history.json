@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f8f63dc5b59727479652dfbbdffa9dd6e881ae1f",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-08T13:31:47.000Z",
       "message": "feat: test de  La cantidad debe ser mayor a 0",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/f8f63dc5b59727479652dfbbdffa9dd6e881ae1f"
     },
     "stats": {
       "total": 10,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-08T13:34:22.000Z",
+      "message": "feat: test de si tenemos una cantidad negativa   La cantidad debe ser mayor a 0",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -26,5 +26,11 @@ describe("Ventas", () => {
         ventas.precio = 500;
         expect(ventas.calcularPrecioNeto(ventas.cantidad, ventas.precio)).toEqual("La cantidad debe ser mayor a 0");
     });
+    it("deberia si la cantiddad es negativa validar la cantidad mayor a 0", () => {
+        let ventas = new Ventas();
+        ventas.cantidad = -2;
+        ventas.precio = 500;
+        expect(ventas.calcularPrecioNeto(ventas.cantidad, ventas.precio)).toEqual("La cantidad debe ser mayor a 0");
+    });
 
 });
