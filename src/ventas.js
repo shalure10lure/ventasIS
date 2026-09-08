@@ -1,5 +1,8 @@
 class Ventas {
     calcularPrecioNeto(cantidad, precio) {
+        if (precio === "") {
+            return "Precio obligatorio";
+        }
         if (cantidad === "") {
             return "Cantidad obligatoria";
         }
