@@ -24,9 +24,15 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8dfe5d7ee9af2cec693dc2c905d8a84776fd5c42",
     "commitName": "feat: test de si tenemos una cantidad negativa   La cantidad debe ser mayor a 0",
     "commitTimestamp": 1788874463984,
     "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: test deberia si el precio es 0, validar precio invalido",
+    "commitTimestamp": 1788874658391,
+    "testId": 5
   }
 ]
