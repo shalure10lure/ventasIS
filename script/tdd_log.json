@@ -12,9 +12,15 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "232201f76d8d898719ee14b65e654f001d749485",
     "commitName": "feat:deberia calcular el precio neto cuando se ingresan cantidad 3 y precio 25.50",
     "commitTimestamp": 1788874100831,
     "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: test de  La cantidad debe ser mayor a 0",
+    "commitTimestamp": 1788874309222,
+    "testId": 3
   }
 ]
