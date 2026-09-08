@@ -1,11 +1,13 @@
  Lista de casos de prueba TDD
- 
+
 Primera iteración — Cálculo básico y validaciones
+
 Rebanada 1: Calcular precio neto
 cantidad 2, precio $500 → precio neto $1000
 cantidad 1, precio $250 → precio neto $250
 cantidad 10, precio $150 → precio neto $1500
 cantidad 3, precio $25.50 → precio neto $76.50
+
 Rebanada 2: Validar cantidad
 cantidad 0, precio $500 → error: cantidad debe ser mayor a cero
 cantidad -2, precio $500 → error: cantidad debe ser mayor a cero
