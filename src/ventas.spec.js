@@ -13,5 +13,11 @@ describe("Ventas", () => {
         ventas.precio = 250;
         expect(ventas.calcularPrecioNeto(ventas.cantidad, ventas.precio)).toEqual(250);
     });
+    it("deberia calcular el precio neto cuando se ingresan cantidad 3 y precio 25.50", () => {
+        let ventas = new Ventas();
+        ventas.cantidad = 3;
+        ventas.precio = 25.50;
+        expect(ventas.calcularPrecioNeto(ventas.cantidad, ventas.precio)).toEqual(76.50);
+    });
 
 });
