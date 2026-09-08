@@ -17,7 +17,10 @@ class Ventas {
         }
         return cantidad * precio;
     }
-    calcularDescuento(){
+    calcularDescuento(precioNeto){
+        if(precioNeto === 1000){
+            return "3%";
+        }
         return "0%";
     }
 }
