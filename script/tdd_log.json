@@ -48,9 +48,15 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "be93ac2d45b94fa2a6a8e82d931bfe4c956a0b5d",
     "commitName": "feat:deberia validar si el precio esta vacio, validar precio obligatorio",
     "commitTimestamp": 1788875067730,
     "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia validar si la cantidad y el precio estan vacios, validar datos obligatorio",
+    "commitTimestamp": 1788875335880,
+    "testId": 9
   }
 ]
