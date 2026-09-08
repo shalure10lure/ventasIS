@@ -30,9 +30,15 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bc5adb601d6bbc28d15a07dbd171dfbacf3c56da",
     "commitName": "feat: test deberia si el precio es 0, validar precio invalido",
     "commitTimestamp": 1788874658391,
     "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: test deberia validar si el precio es negativo, validar precio invalido",
+    "commitTimestamp": 1788874744445,
+    "testId": 6
   }
 ]

@@ -40,4 +40,11 @@ describe("Ventas", () => {
         expect(ventas.calcularPrecioNeto(ventas.cantidad, ventas.precio)).toEqual("Precio Invalido");
     });
 
+    it("deberia validar si el precio es negativo, validar precio invalido", () => {
+        let ventas = new Ventas();
+        ventas.cantidad = 2;
+        ventas.precio = -50;
+        expect(ventas.calcularPrecioNeto(ventas.cantidad, ventas.precio)).toEqual("Precio Invalido");
+    });
+
 });
