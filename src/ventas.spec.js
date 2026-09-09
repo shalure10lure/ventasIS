@@ -86,4 +86,9 @@ describe("Ventas", () => {
         let ventas = new Ventas();
         expect(ventas.calcularDescuento(6999)).toEqual("5%");
     });
+    it("deberia aplicar 7% de descuento cuando el precio neto es 7000", () => {
+        let ventas = new Ventas();
+        expect(ventas.calcularDescuento(7000)).toEqual("7%");
+    });
+    
 });

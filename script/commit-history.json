@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7051e6648b4d516f23867bf87cdbf1bebc1b9766",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-09T20:17:17.000Z",
       "message": "feat: deberia aplicar 5% de descuento cuando el precio neto es 6999",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/7051e6648b4d516f23867bf87cdbf1bebc1b9766"
     },
     "stats": {
       "total": 6,
@@ -281,6 +281,25 @@
     },
     "coverage": 100,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-09T20:18:59.000Z",
+      "message": "feat: deberia aplicar 7% de descuento cuando el precio neto es 7000",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }
