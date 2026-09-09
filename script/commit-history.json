@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "29838c61da6c69d024cef413d951fb8c74525030",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-09T20:43:56.000Z",
       "message": "feat:deberia calcular el precio despues del descuento de 5% para un precio neto de 3000",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/29838c61da6c69d024cef413d951fb8c74525030"
     },
     "stats": {
       "total": 17,
@@ -433,6 +433,25 @@
     },
     "coverage": 100,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-09T20:47:07.000Z",
+      "message": "feat:deberia calcular el precio despues del descuento de 10% para un precio neto de 10000",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 26,
     "failed_tests": 0,
     "conclusion": "success"
   }

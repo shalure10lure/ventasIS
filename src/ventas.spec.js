@@ -119,4 +119,12 @@ describe("Ventas", () => {
        let ventas = new Ventas();
        expect(ventas.calcularPrecioDespuesDescuento(3000, 5)).toEqual(2850);
     });
+    it("deberia calcular el precio despues del descuento de 7% para un precio neto de 7000", () => {
+       let ventas = new Ventas();
+       expect(ventas.calcularPrecioDespuesDescuento(7000, 7)).toEqual(6510);
+    });
+    it("deberia calcular el precio despues del descuento de 10% para un precio neto de 10000", () => {
+       let ventas = new Ventas();
+       expect(ventas.calcularPrecioDespuesDescuento(10000, 10)).toEqual(9000);
+    });
 });
