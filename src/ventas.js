@@ -27,6 +27,9 @@ class Ventas {
         if(precioNeto >= 7000 && precioNeto <= 9999){
             return "7%";
         }
+        if(precioNeto === 10000){
+            return "10%";
+        }
         return "0%";
     }
 }
