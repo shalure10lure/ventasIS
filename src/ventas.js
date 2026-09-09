@@ -36,8 +36,10 @@ class Ventas {
         return "0%";
     }
 
-    calcularPrecioDespuesDescuento(){
-        return 970;
+    calcularPrecioDespuesDescuento(precioNeto, descuento){
+        let porcentajeDescuento = parseFloat(descuento) / 100;
+        let descuentoCalculado = precioNeto * porcentajeDescuento;
+        return precioNeto - descuentoCalculado;
     }
 }
 

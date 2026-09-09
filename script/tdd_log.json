@@ -126,9 +126,15 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "32f965e929d83ffe2231fc9562370bc587e0c861",
     "commitName": "feat:deberia calcular el precio despues del descuento de 3% para un precio neto de 1000",
     "commitTimestamp": 1788986515562,
     "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:deberia calcular el precio despues del descuento de 5% para un precio neto de 3000",
+    "commitTimestamp": 1788986637941,
+    "testId": 22
   }
 ]
