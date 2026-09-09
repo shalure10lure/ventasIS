@@ -21,7 +21,7 @@ class Ventas {
         if(precioNeto >= 1000 && precioNeto <= 2999){
             return "3%";
         }
-        if(precioNeto ===3000){
+        if(precioNeto >= 3000 && precioNeto <= 6999){
             return "5%";
         }
         return "0%";

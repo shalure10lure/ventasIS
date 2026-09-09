@@ -78,9 +78,15 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f4f05dc0b728d18da70ed7d000e83760758d740c",
     "commitName": "feat: deberia aplicar 5% de descuento cuando el precio neto es 3000",
     "commitTimestamp": 1788984916483,
     "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia aplicar 5% de descuento cuando el precio neto es 6999",
+    "commitTimestamp": 1788985039151,
+    "testId": 14
   }
 ]
