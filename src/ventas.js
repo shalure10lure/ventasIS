@@ -18,7 +18,7 @@ class Ventas {
         return cantidad * precio;
     }
     calcularDescuento(precioNeto){
-        if(precioNeto === 1000){
+        if(precioNeto >= 1000 && precioNeto <= 2999){
             return "3%";
         }
         return "0%";
