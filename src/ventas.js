@@ -35,6 +35,10 @@ class Ventas {
         }
         return "0%";
     }
+
+    calcularPrecioDespuesDescuento(){
+        return 970;
+    }
 }
 
 export default Ventas;

@@ -120,9 +120,15 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6cb6be64c15158c225908509d273ac462d9d594e",
     "commitName": "feat: deberia aplicar 15% de descuento cuando el precio neto es 50000",
     "commitTimestamp": 1788986268942,
     "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:deberia calcular el precio despues del descuento de 3% para un precio neto de 1000",
+    "commitTimestamp": 1788986515562,
+    "testId": 21
   }
 ]
