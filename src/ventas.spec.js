@@ -177,4 +177,12 @@ describe("Ventas", () => {
        let ventas = new Ventas();
        expect(ventas.calcularValorImpuesto(1000, "UT")).toEqual(66.50);
     });
+    it("deberia calcular 80.00 de impuesto para Nevada sobre 1000", () => {
+       let ventas = new Ventas();
+       expect(ventas.calcularValorImpuesto(1000, "NV")).toEqual(80.00);
+    });
+    it("deberia calcular 40.00 de impuesto para Alabama sobre 1000", () => {
+       let ventas = new Ventas();
+       expect(ventas.calcularValorImpuesto(1000, "AL")).toEqual(40.00);
+    });
 });

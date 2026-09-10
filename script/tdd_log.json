@@ -210,9 +210,15 @@
     "testId": 34
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e43fa8bde52b0f31053b844a09964192cef7a38a",
     "commitName": "feat: deberia calcular 66.50 de impuesto para California sobre 1000",
     "commitTimestamp": 1789008404391,
     "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia calcular 40.00 de impuesto para California sobre 1000",
+    "commitTimestamp": 1789008484981,
+    "testId": 36
   }
 ]

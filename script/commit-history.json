@@ -665,12 +665,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e43fa8bde52b0f31053b844a09964192cef7a38a",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T02:46:42.000Z",
       "message": "feat: deberia calcular 66.50 de impuesto para California sobre 1000",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/e43fa8bde52b0f31053b844a09964192cef7a38a"
     },
     "stats": {
       "total": 12,
@@ -680,6 +680,25 @@
     },
     "coverage": 94.34,
     "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T02:48:03.000Z",
+      "message": "feat: deberia calcular 40.00 de impuesto para California sobre 1000",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 94.34,
+    "test_count": 40,
     "failed_tests": 0,
     "conclusion": "success"
   }
