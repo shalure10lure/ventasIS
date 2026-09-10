@@ -741,17 +741,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7565e528f8de0d92d6f4fa2116b189246a36505b",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T03:02:37.000Z",
       "message": "refactor: mejorar codigo de ventas.js",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/7565e528f8de0d92d6f4fa2116b189246a36505b"
     },
     "stats": {
       "total": 131,
       "additions": 67,
       "deletions": 64,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.49,
+    "test_count": 40,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T03:08:31.000Z",
+      "message": "refactor: mejorando la parte de presentacion",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 11,
+      "deletions": 4,
       "date": "2026-09-10"
     },
     "coverage": 96.49,

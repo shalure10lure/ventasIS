@@ -234,9 +234,15 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7565e528f8de0d92d6f4fa2116b189246a36505b",
     "commitName": "refactor: mejorar codigo de ventas.js",
     "commitTimestamp": 1789009359855,
     "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: mejorando la parte de presentacion",
+    "commitTimestamp": 1789009713158,
+    "testId": 40
   }
 ]
