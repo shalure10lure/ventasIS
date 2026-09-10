@@ -156,4 +156,8 @@ describe("Ventas", () => {
        let ventas = new Ventas();
        expect(ventas.calcularImpuestoEstado("UT")).toEqual("6.65%");
     });
+    it("deberia retornar 8% de impuesto para Nevada", () => {
+       let ventas = new Ventas();
+       expect(ventas.calcularImpuestoEstado("NV")).toEqual("8.00%");
+    });
 });

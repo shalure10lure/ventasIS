@@ -180,9 +180,15 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "98ddf175901e3f7442afeaa39d748c4bad0f5d0c",
     "commitName": "feat:deberia retornar 6.65% de impuesto para utah",
     "commitTimestamp": 1789007646954,
     "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:deberia retornar 8% de impuesto para nevada",
+    "commitTimestamp": 1789007862483,
+    "testId": 31
   }
 ]
