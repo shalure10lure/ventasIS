@@ -336,9 +336,15 @@
     "testId": 55
   },
   {
-    "commitId": "HEAD",
+    "commitId": "726c74883c7ffbe0c0cf5b6d00ad1047e6634cee",
     "commitName": "feat: deberia calcular 1.5% de descuento adicional para material  sobre 1000",
     "commitTimestamp": 1789012888964,
     "testId": 56
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia calcular 1% de descuento adicional para electronicos sobre 1000",
+    "commitTimestamp": 1789013036699,
+    "testId": 57
   }
 ]

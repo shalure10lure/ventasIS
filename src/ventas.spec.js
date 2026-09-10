@@ -261,5 +261,13 @@ describe("Ventas", () => {
         let ventas = new Ventas(); 
         expect(ventas.calcularDescuentoCategoria("Material de escritorio", 1000)).toEqual(15.00);
     });
+    it("deberia calcular 0% de descuento adicional para  muebles sobre 1000", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.calcularDescuentoCategoria("Muebles", 1000)).toEqual(0.00);
+    });
+    it("deberia calcular 1% de descuento adicional para  electronicos sobre 1000", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.calcularDescuentoCategoria("Electronicos", 1000)).toEqual(10.00);
+    });
 });
 

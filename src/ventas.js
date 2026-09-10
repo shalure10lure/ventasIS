@@ -150,6 +150,12 @@ class Ventas {
         if (categoria === "Material de escritorio") {
             return precioNeto * 0.015;
         }
+        if (categoria === "Muebles") {
+            return precioNeto * 0.00;
+        }
+        if (categoria === "Electronicos") {
+            return precioNeto * 0.01;
+        }
         return 0.00;
     }
 }
