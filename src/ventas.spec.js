@@ -314,6 +314,18 @@ describe("Ventas", () => {
        let ventas = new Ventas(); 
        expect(ventas.calcularCostoEnvio(8, 5.1258)).toEqual(6.00);
     });
+    it("deberia tener envio 6.50 cuando el peso total es 81", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.calcularCostoEnvio(9,9)).toEqual(6.50);
+    });
+    it("deberia tener envio 8 cuando el peso total es 110", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.calcularCostoEnvio(11,10)).toEqual(8.00);
+    });
+    it("deberia tener envio 9 cuando el peso total es 210", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.calcularCostoEnvio(21,10)).toEqual(9.00);
+    });
 
 });
 

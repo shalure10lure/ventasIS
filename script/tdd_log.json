@@ -378,9 +378,15 @@
     "testId": 62
   },
   {
-    "commitId": "HEAD",
+    "commitId": "21b058fbf12c83dd4f1922448204c8b5649b264a",
     "commitName": "feat: deberia cobrar 6 cuando el peso total es 41",
     "commitTimestamp": 1789014293966,
     "testId": 63
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia cobrar 9 cuando el peso total es 210",
+    "commitTimestamp": 1789014544513,
+    "testId": 64
   }
 ]

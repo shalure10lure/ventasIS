@@ -1197,12 +1197,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "21b058fbf12c83dd4f1922448204c8b5649b264a",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T04:24:52.000Z",
       "message": "feat: deberia cobrar 6 cuando el peso total es 41",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/21b058fbf12c83dd4f1922448204c8b5649b264a"
     },
     "stats": {
       "total": 17,
@@ -1212,6 +1212,25 @@
     },
     "coverage": 96.55,
     "test_count": 71,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T04:29:02.000Z",
+      "message": "feat: deberia cobrar 9 cuando el peso total es 210",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 25,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 95.97,
+    "test_count": 74,
     "failed_tests": 0,
     "conclusion": "success"
   }

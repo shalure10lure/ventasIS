@@ -182,7 +182,19 @@ class Ventas {
         if (pesototal > 20 && pesototal <= 40) {
             return 5.00;
         }
-        return 6.00;
+        if (pesototal > 40 && pesototal <= 80) {
+            return 6.00;
+        }
+        if (pesototal > 80 && pesototal <= 100) {
+            return 6.50;
+        }
+        if (pesototal > 100 && pesototal <= 200) {
+            return 8.00;
+        }
+        if (pesototal > 200) {
+            return 9.00;
+        }
+        return 0.00;
     }
 }
 
