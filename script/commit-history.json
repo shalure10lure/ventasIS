@@ -1140,12 +1140,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3e6b38d61a1e1b54f0004196a3911d7e14f4d7c1",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T04:13:33.000Z",
       "message": "feat: deberia rechazar un peso volumetrico menor de 0",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/3e6b38d61a1e1b54f0004196a3911d7e14f4d7c1"
     },
     "stats": {
       "total": 10,
@@ -1155,6 +1155,25 @@
     },
     "coverage": 96.3,
     "test_count": 67,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T04:16:26.000Z",
+      "message": "feat: deberia tener envio gratis cuando el peso total es 10",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.33,
+    "test_count": 68,
     "failed_tests": 0,
     "conclusion": "success"
   }

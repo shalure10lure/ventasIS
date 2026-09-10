@@ -360,9 +360,15 @@
     "testId": 59
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3e6b38d61a1e1b54f0004196a3911d7e14f4d7c1",
     "commitName": "feat: deberia rechazar un peso volumetrico menor de 0",
     "commitTimestamp": 1789013615630,
     "testId": 60
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia tener envio gratis cuando el peso total es 10",
+    "commitTimestamp": 1789013787951,
+    "testId": 61
   }
 ]

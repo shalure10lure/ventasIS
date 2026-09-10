@@ -297,5 +297,10 @@ describe("Ventas", () => {
        let ventas = new Ventas(); 
        expect(ventas.validarPesoVolumetrico(-5)).toEqual("Peso invalido");
     });
+
+    it("deberia tener envio gratis cuando el peso total es 10", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.calcularCostoEnvio(2, 5)).toEqual(0);
+    });
 });
 

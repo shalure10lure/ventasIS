@@ -171,6 +171,10 @@ class Ventas {
             return "Peso valido";
         }
     }
+    calcularCostoEnvio(){
+        return 0;
+        
+    }
 }
 
 export default Ventas;
