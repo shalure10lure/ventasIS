@@ -216,9 +216,15 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "88d7e61d971ceb188d6897bada580f9dc90ee681",
     "commitName": "feat: deberia calcular 40.00 de impuesto para California sobre 1000",
     "commitTimestamp": 1789008484981,
     "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: crear vista del totalizador de venta",
+    "commitTimestamp": 1789008874520,
+    "testId": 37
   }
 ]

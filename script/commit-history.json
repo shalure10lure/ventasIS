@@ -684,17 +684,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "88d7e61d971ceb188d6897bada580f9dc90ee681",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T02:48:03.000Z",
       "message": "feat: deberia calcular 40.00 de impuesto para California sobre 1000",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/88d7e61d971ceb188d6897bada580f9dc90ee681"
     },
     "stats": {
       "total": 8,
       "additions": 8,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 94.34,
+    "test_count": 40,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T02:54:32.000Z",
+      "message": "feat: crear vista del totalizador de venta",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 13,
+      "deletions": 8,
       "date": "2026-09-10"
     },
     "coverage": 94.34,
