@@ -73,6 +73,9 @@ class Ventas {
         if (estado === "NV") {
             return "8.00%";
         }
+        if (estado === "TX") {
+            return "6.25%";
+        }
         return "0%";
     }
 }

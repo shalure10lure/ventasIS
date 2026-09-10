@@ -160,4 +160,8 @@ describe("Ventas", () => {
        let ventas = new Ventas();
        expect(ventas.calcularImpuestoEstado("NV")).toEqual("8.00%");
     });
+    it("deberia retornar 6.25% de impuesto para Texas", () => {
+       let ventas = new Ventas();
+       expect(ventas.calcularImpuestoEstado("TX")).toEqual("6.25%");
+    });
 });

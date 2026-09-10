@@ -589,12 +589,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "39f4415729a6b7f2ddc1f6d3b046d3b2b4e6d1e8",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T02:37:40.000Z",
       "message": "feat:deberia retornar 8% de impuesto para nevada",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/39f4415729a6b7f2ddc1f6d3b046d3b2b4e6d1e8"
     },
     "stats": {
       "total": 7,
@@ -604,6 +604,25 @@
     },
     "coverage": 93.48,
     "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T02:39:25.000Z",
+      "message": "feat:deberia retornar 6.25% de impuesto para texas",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 93.75,
+    "test_count": 35,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -186,9 +186,15 @@
     "testId": 30
   },
   {
-    "commitId": "HEAD",
+    "commitId": "39f4415729a6b7f2ddc1f6d3b046d3b2b4e6d1e8",
     "commitName": "feat:deberia retornar 8% de impuesto para nevada",
     "commitTimestamp": 1789007862483,
     "testId": 31
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:deberia retornar 6.25% de impuesto para texas",
+    "commitTimestamp": 1789007967156,
+    "testId": 32
   }
 ]
