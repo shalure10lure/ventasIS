@@ -164,6 +164,13 @@ class Ventas {
         }
         return 0.00;
     }
+    validarPesoVolumetrico(peso){
+        if (peso <= 0) {
+            return "Peso invalido";
+        }else if(peso>=0){
+            return "Peso valido";
+        }
+    }
 }
 
 export default Ventas;

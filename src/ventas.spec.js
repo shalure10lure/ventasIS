@@ -277,5 +277,15 @@ describe("Ventas", () => {
         let ventas = new Ventas(); 
         expect(ventas.calcularDescuentoCategoria("Varios", 1000)).toEqual(0.00);
     });
+
+    it("deberia aceptar un peso volumetrico de 5", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.validarPesoVolumetrico(5)).toEqual("Peso valido");
+    });
+
+    it("deberia aceptar un peso volumetrico de 10", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.validarPesoVolumetrico(10)).toEqual("Peso valido");
+    });
 });
 

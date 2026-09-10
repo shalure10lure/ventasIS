@@ -348,9 +348,15 @@
     "testId": 57
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a4d63a31e81718f0ce699cb415fefa46a85c57a6",
     "commitName": "feat: deberia calcular 0% de descuento adicional para vestimenta sobre 1000",
     "commitTimestamp": 1789013154520,
     "testId": 58
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia aceptar un peso volumetrico mayor de 0",
+    "commitTimestamp": 1789013533863,
+    "testId": 59
   }
 ]
