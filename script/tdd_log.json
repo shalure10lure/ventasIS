@@ -198,9 +198,15 @@
     "testId": 32
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2a4c233091b3f2a9fc63e2981a959b0d8e4159a5",
     "commitName": "feat:deberia retornar 4.00% de impuesto para alabama",
     "commitTimestamp": 1789008056745,
     "testId": 33
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia calcular 82.50 de impuesto para California sobre 1000",
+    "commitTimestamp": 1789008261609,
+    "testId": 34
   }
 ]

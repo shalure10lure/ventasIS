@@ -81,6 +81,9 @@ class Ventas {
         }
         return "0%";
     }
+    calcularValorImpuesto() {
+        return 82.50;
+    }
 }
 
 export default Ventas;

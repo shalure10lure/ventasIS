@@ -168,4 +168,9 @@ describe("Ventas", () => {
        let ventas = new Ventas();
        expect(ventas.calcularImpuestoEstado("AL")).toEqual("4.00%");
     });
+
+    it("deberia calcular 82.50 de impuesto para California sobre 1000", () => {
+       let ventas = new Ventas();
+       expect(ventas.calcularValorImpuesto(1000, 8.25)).toEqual(82.50);
+    });
 });
