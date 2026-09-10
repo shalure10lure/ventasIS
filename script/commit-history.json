@@ -836,12 +836,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e5e5586c903d48e9aa011ce8a8759292e704cb56",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T03:36:17.000Z",
       "message": "feat: deberia seleccionar la categoria Alimentos cuando se ingresa ALIM",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/e5e5586c903d48e9aa011ce8a8759292e704cb56"
     },
     "stats": {
       "total": 8,
@@ -851,6 +851,25 @@
     },
     "coverage": 96.72,
     "test_count": 43,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T03:39:19.000Z",
+      "message": "feat: deberia seleccionar la categoria bebidas alcoholicas cuando se ingresa bebidas alcoholicas",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 13,
+      "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 95.38,
+    "test_count": 44,
     "failed_tests": 0,
     "conclusion": "success"
   }

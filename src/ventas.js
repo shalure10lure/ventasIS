@@ -98,8 +98,14 @@ class Ventas {
         }
     }
 
-    seleccionarCategoria(){
-        return "Alimentos";
+    seleccionarCategoria(categoria) {
+        if (categoria === "Alimentos") {
+            return "Alimentos";
+        } else if (categoria === "Bebidas alcoholicas") {
+            return "Bebidas alcoholicas";
+        } else {
+            return "Categoria no encontrada";
+        }
     }
 }
 

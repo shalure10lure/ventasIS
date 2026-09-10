@@ -264,9 +264,15 @@
     "testId": 43
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e5e5586c903d48e9aa011ce8a8759292e704cb56",
     "commitName": "feat: deberia seleccionar la categoria Alimentos cuando se ingresa ALIM",
     "commitTimestamp": 1789011379196,
     "testId": 44
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia seleccionar la categoria bebidas alcoholicas cuando se ingresa bebidas alcoholicas",
+    "commitTimestamp": 1789011561129,
+    "testId": 45
   }
 ]

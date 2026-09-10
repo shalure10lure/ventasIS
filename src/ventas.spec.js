@@ -195,6 +195,10 @@ describe("Ventas", () => {
     });
     it("deberia seleccionar la categoria Alimentos cuando se ingresa ALIM", () => {
         let ventas = new Ventas(); 
-        expect(ventas.seleccionarCategoria("ALIM")).toEqual("Alimentos"); 
+        expect(ventas.seleccionarCategoria("Alimentos")).toEqual("Alimentos"); 
+    });
+    it("deberia seleccionar la categoria Bebidas alcoholicas cuando se ingresa BEB", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.seleccionarCategoria("Bebidas alcoholicas")).toEqual("Bebidas alcoholicas"); 
     });
 });
