@@ -89,6 +89,10 @@ class Ventas {
 
         return resultado;
     }
+
+    confirmarCompra(){
+        return "Compra confirmada";
+    }
 }
 
 export default Ventas;

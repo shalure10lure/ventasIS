@@ -779,12 +779,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2bade775b7247c79d51c1f439a2365c022dd2684",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T03:23:11.000Z",
       "message": "refactor: mejorar formulario y mostrar detalle de venta",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/2bade775b7247c79d51c1f439a2365c022dd2684"
     },
     "stats": {
       "total": 40,
@@ -794,6 +794,25 @@
     },
     "coverage": 96.49,
     "test_count": 40,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T03:30:15.000Z",
+      "message": "feat: deberia confirmar la compra cuando la cantidad y el precio son validos",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.55,
+    "test_count": 41,
     "failed_tests": 0,
     "conclusion": "success"
   }

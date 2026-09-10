@@ -246,9 +246,15 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2bade775b7247c79d51c1f439a2365c022dd2684",
     "commitName": "refactor: mejorar formulario y mostrar detalle de venta",
     "commitTimestamp": 1789010593023,
     "testId": 41
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia confirmar la compra cuando la cantidad y el precio son validos",
+    "commitTimestamp": 1789011017254,
+    "testId": 42
   }
 ]

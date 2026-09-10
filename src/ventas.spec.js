@@ -185,4 +185,8 @@ describe("Ventas", () => {
        let ventas = new Ventas();
        expect(ventas.calcularValorImpuesto(1000, "AL")).toEqual(40.00);
     });
+    it("deberia confirmar la compra cuando la cantidad y el precio son validos", () => {
+       let ventas = new Ventas();
+       expect(ventas.confirmarCompra(2, 500)).toEqual("Compra confirmada");
+    });
 });
