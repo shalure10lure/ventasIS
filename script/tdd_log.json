@@ -366,9 +366,15 @@
     "testId": 60
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7a9a4e551baa3d57114dddfbdb3f49ed56c6da8a",
     "commitName": "feat: deberia tener envio gratis cuando el peso total es 10",
     "commitTimestamp": 1789013787951,
     "testId": 61
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia cobrar 3.50 cuando el peso total es 11",
+    "commitTimestamp": 1789014036181,
+    "testId": 62
   }
 ]

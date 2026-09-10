@@ -1159,12 +1159,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7a9a4e551baa3d57114dddfbdb3f49ed56c6da8a",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T04:16:26.000Z",
       "message": "feat: deberia tener envio gratis cuando el peso total es 10",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/7a9a4e551baa3d57114dddfbdb3f49ed56c6da8a"
     },
     "stats": {
       "total": 9,
@@ -1174,6 +1174,25 @@
     },
     "coverage": 96.33,
     "test_count": 68,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T04:20:34.000Z",
+      "message": "feat: deberia cobrar 3.50 cuando el peso total es 11",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 10,
+      "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.43,
+    "test_count": 69,
     "failed_tests": 0,
     "conclusion": "success"
   }

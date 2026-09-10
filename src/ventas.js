@@ -171,9 +171,12 @@ class Ventas {
             return "Peso valido";
         }
     }
-    calcularCostoEnvio(){
-        return 0;
-        
+    calcularCostoEnvio(cantidad,peso){
+        let pesototal= cantidad * peso;
+        if (pesototal >= 0 && pesototal <=10) {
+            return 0;
+        }
+        return 3.50;
     }
 }
 
