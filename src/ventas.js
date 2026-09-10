@@ -128,6 +128,9 @@ class Ventas {
         if (categoria === "Muebles") {
             impuesto = 0.03;
         }
+        if (categoria === "Electronicos") {
+            impuesto = 0.04;
+        }
         return precioNeto * impuesto;
     }
 }

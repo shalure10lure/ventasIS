@@ -969,12 +969,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "563b1aba389e26216cbd049dde064c5cce86d813",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T03:51:58.000Z",
       "message": "feat: deberia calcular 3% de impuesto adicional de muebles sobre 1000",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/563b1aba389e26216cbd049dde064c5cce86d813"
     },
     "stats": {
       "total": 14,
@@ -984,6 +984,25 @@
     },
     "coverage": 96.39,
     "test_count": 53,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T03:53:33.000Z",
+      "message": "feat: deberia calcular 4% de impuesto adicional de electronicos  sobre 1000",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.47,
+    "test_count": 54,
     "failed_tests": 0,
     "conclusion": "success"
   }

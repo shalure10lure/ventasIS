@@ -306,9 +306,15 @@
     "testId": 50
   },
   {
-    "commitId": "HEAD",
+    "commitId": "563b1aba389e26216cbd049dde064c5cce86d813",
     "commitName": "feat: deberia calcular 3% de impuesto adicional de muebles sobre 1000",
     "commitTimestamp": 1789012319908,
     "testId": 51
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia calcular 4% de impuesto adicional de electronicos  sobre 1000",
+    "commitTimestamp": 1789012414784,
+    "testId": 52
   }
 ]
