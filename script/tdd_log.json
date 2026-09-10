@@ -300,9 +300,15 @@
     "testId": 49
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2753ecfb162d3b5945e83d0c96baf04fe1652688",
     "commitName": "feat: deberia calcular 7% de impuesto adicional para Bebidas alcoholicas sobre 1000",
     "commitTimestamp": 1789012178836,
     "testId": 50
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia calcular 3% de impuesto adicional de muebles sobre 1000",
+    "commitTimestamp": 1789012319908,
+    "testId": 51
   }
 ]

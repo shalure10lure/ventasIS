@@ -950,12 +950,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2753ecfb162d3b5945e83d0c96baf04fe1652688",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T03:49:37.000Z",
       "message": "feat: deberia calcular 7% de impuesto adicional para Bebidas alcoholicas sobre 1000",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/2753ecfb162d3b5945e83d0c96baf04fe1652688"
     },
     "stats": {
       "total": 15,
@@ -965,6 +965,25 @@
     },
     "coverage": 96.2,
     "test_count": 51,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T03:51:58.000Z",
+      "message": "feat: deberia calcular 3% de impuesto adicional de muebles sobre 1000",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.39,
+    "test_count": 53,
     "failed_tests": 0,
     "conclusion": "success"
   }

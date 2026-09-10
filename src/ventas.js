@@ -122,6 +122,12 @@ class Ventas {
         if (categoria === "Bebidas alcoholicas") {
             impuesto = 0.07;
         }
+        if (categoria === "Material de escritorio") {
+            impuesto = 0.00;
+        }
+        if (categoria === "Muebles") {
+            impuesto = 0.03;
+        }
         return precioNeto * impuesto;
     }
 }

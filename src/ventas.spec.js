@@ -229,5 +229,13 @@ describe("Ventas", () => {
         let ventas = new Ventas(); 
         expect(ventas.calcularImpuestoCategoria("Bebidas alcoholicas", 1000)).toEqual(70.00);
     });
+    it("deberia calcular 0% de impuesto adicional para Material de escritorio sobre 1000", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.calcularImpuestoCategoria("Material de escritorio", 1000)).toEqual(0.00);
+    });
+    it("deberia calcular 3% de impuesto adicional para Muebles sobre 1000", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.calcularImpuestoCategoria("Muebles", 1000)).toEqual(30.00);
+    });
 });
 
