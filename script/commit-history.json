@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "716eb5c443f8a75531c18c8100d914f5f352ac6f",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T02:27:22.000Z",
       "message": "feat:deberia seleccionar texas cuando se ingresa tx",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/716eb5c443f8a75531c18c8100d914f5f352ac6f"
     },
     "stats": {
       "total": 7,
@@ -528,6 +528,25 @@
     },
     "coverage": 94.59,
     "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T02:29:10.000Z",
+      "message": "feat:deberia seleccionar alabama cuando se ingresa al",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 94.87,
+    "test_count": 31,
     "failed_tests": 0,
     "conclusion": "success"
   }

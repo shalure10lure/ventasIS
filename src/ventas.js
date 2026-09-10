@@ -58,6 +58,9 @@ class Ventas {
         if (estado === "TX") {
             return "Texas";
         }
+        if (estado === "AL") {
+            return "Alabama";
+        }
         return "Estado no encontrado";
     }
 }

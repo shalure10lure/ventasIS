@@ -162,9 +162,15 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "716eb5c443f8a75531c18c8100d914f5f352ac6f",
     "commitName": "feat:deberia seleccionar texas cuando se ingresa tx",
     "commitTimestamp": 1789007244946,
     "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:deberia seleccionar alabama cuando se ingresa al",
+    "commitTimestamp": 1789007352249,
+    "testId": 28
   }
 ]
