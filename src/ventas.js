@@ -41,6 +41,10 @@ class Ventas {
         let descuentoCalculado = precioNeto * porcentajeDescuento;
         return precioNeto - descuentoCalculado;
     }
+
+    seleccionarEstado() {
+        return "California";
+    }
 }
 
 export default Ventas;

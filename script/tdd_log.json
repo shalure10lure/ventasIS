@@ -138,9 +138,15 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4ca472a0ae5fef3d1ffc77471e3e74981bf3c245",
     "commitName": "feat:deberia calcular el precio despues del descuento de 10% para un precio neto de 10000",
     "commitTimestamp": 1788986829222,
     "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:deberia seleccionar California cuando se ingresa CA",
+    "commitTimestamp": 1789003642751,
+    "testId": 24
   }
 ]

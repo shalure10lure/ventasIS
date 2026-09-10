@@ -127,4 +127,8 @@ describe("Ventas", () => {
        let ventas = new Ventas();
        expect(ventas.calcularPrecioDespuesDescuento(10000, 10)).toEqual(9000);
     });
+    it("deberia seleccionar California cuando se ingresa CA", () => {
+       let ventas = new Ventas();
+       expect(ventas.seleccionarEstado("CA")).toEqual("California");
+    });
 });

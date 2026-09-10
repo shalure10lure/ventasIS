@@ -437,12 +437,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4ca472a0ae5fef3d1ffc77471e3e74981bf3c245",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-09T20:47:07.000Z",
       "message": "feat:deberia calcular el precio despues del descuento de 10% para un precio neto de 10000",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/4ca472a0ae5fef3d1ffc77471e3e74981bf3c245"
     },
     "stats": {
       "total": 8,
@@ -452,6 +452,25 @@
     },
     "coverage": 100,
     "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T01:27:20.000Z",
+      "message": "feat:deberia seleccionar California cuando se ingresa CA",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 27,
     "failed_tests": 0,
     "conclusion": "success"
   }
