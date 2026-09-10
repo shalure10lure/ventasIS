@@ -228,9 +228,15 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dea8bb620072b2df1f3abd58dceb08c64f2f11fd",
     "commitName": "feat: conectar presenter con totalizador de venta",
     "commitTimestamp": 1789009007355,
     "testId": 38
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: mejorar codigo de ventas.js",
+    "commitTimestamp": 1789009359855,
+    "testId": 39
   }
 ]

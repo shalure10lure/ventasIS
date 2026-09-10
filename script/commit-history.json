@@ -722,12 +722,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dea8bb620072b2df1f3abd58dceb08c64f2f11fd",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T02:56:44.000Z",
       "message": "feat: conectar presenter con totalizador de venta",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/dea8bb620072b2df1f3abd58dceb08c64f2f11fd"
     },
     "stats": {
       "total": 25,
@@ -736,6 +736,25 @@
       "date": "2026-09-10"
     },
     "coverage": 94.34,
+    "test_count": 40,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T03:02:37.000Z",
+      "message": "refactor: mejorar codigo de ventas.js",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 131,
+      "additions": 67,
+      "deletions": 64,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.49,
     "test_count": 40,
     "failed_tests": 0,
     "conclusion": "success"

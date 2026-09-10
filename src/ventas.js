@@ -1,90 +1,93 @@
 class Ventas {
     calcularPrecioNeto(cantidad, precio) {
-        if(precio === ""&&cantidad === "") {
-            return "Datos obligatorio";
+        let resultado;
+        if (precio === "" && cantidad === "") {
+            resultado = "Datos obligatorio";
+        } else if (precio === "") {
+            resultado = "Precio obligatorio";
+        } else if (cantidad === "") {
+            resultado = "Cantidad obligatoria";
+        } else if (cantidad <= 0) {
+            resultado = "La cantidad debe ser mayor a 0";
+        } else if (precio <= 0) {
+            resultado = "Precio Invalido";
+        } else {
+            resultado = cantidad * precio;
         }
-        if (precio === "") {
-            return "Precio obligatorio";
-        }
-        if (cantidad === "") {
-            return "Cantidad obligatoria";
-        }
-        if (cantidad <= 0) {
-            return "La cantidad debe ser mayor a 0";
-        }
-        if (precio <= 0) {
-            return "Precio Invalido";
-        }
-        return cantidad * precio;
+        return resultado;
     }
+
     calcularDescuento(precioNeto){
-        if(precioNeto >= 1000 && precioNeto <= 2999){
-            return "3%";
+        let descuento;
+        if (precioNeto >= 30000) {
+            descuento = "15%";
+        } else if (precioNeto >= 10000) {
+            descuento = "10%";
+        } else if (precioNeto >= 7000) {
+            descuento = "7%";
+        } else if (precioNeto >= 3000) {
+            descuento = "5%";
+        } else if (precioNeto >= 1000) {
+            descuento = "3%";
+        } else {
+            descuento = "0%";
         }
-        if(precioNeto >= 3000 && precioNeto <= 6999){
-            return "5%";
-        }
-        if(precioNeto >= 7000 && precioNeto <= 9999){
-            return "7%";
-        }
-        if(precioNeto >= 10000 && precioNeto <= 29999){
-            return "10%";
-        }
-        if(precioNeto >= 30000 && precioNeto <= 99999){
-            return "15%";
-        }
-        return "0%";
+
+        return descuento;
     }
 
     calcularPrecioDespuesDescuento(precioNeto, descuento){
         let porcentajeDescuento = parseFloat(descuento) / 100;
         let descuentoCalculado = precioNeto * porcentajeDescuento;
-        return precioNeto - descuentoCalculado;
+        let resultado = precioNeto - descuentoCalculado;
+
+        return resultado;
     }
 
     seleccionarEstado(estado) {
+        let resultado;
+
         if (estado === "CA") {
-            return "California";
+            resultado = "California";
+        } else if (estado === "UT") {
+            resultado = "Utah";
+        } else if (estado === "NV") {
+            resultado = "Nevada";
+        } else if (estado === "TX") {
+            resultado = "Texas";
+        } else if (estado === "AL") {
+            resultado = "Alabama";
+        } else {
+            resultado = "Estado no encontrado";
         }
-        if (estado === "UT") {
-            return "Utah";
-        }
-        if (estado === "UT") {
-            return "Utah";
-        }
-        if (estado === "NV") {
-            return "Nevada";
-        }
-        if (estado === "TX") {
-            return "Texas";
-        }
-        if (estado === "AL") {
-            return "Alabama";
-        }
-        return "Estado no encontrado";
+
+        return resultado;
     }
     calcularImpuestoEstado(estado) {
+        let impuesto;
+
         if (estado === "CA") {
-            return "8.25%";
+            impuesto = "8.25%";
+        } else if (estado === "UT") {
+            impuesto = "6.65%";
+        } else if (estado === "NV") {
+            impuesto = "8.00%";
+        } else if (estado === "TX") {
+            impuesto = "6.25%";
+        } else if (estado === "AL") {
+            impuesto = "4.00%";
+        } else {
+            impuesto = "0%";
         }
-        if (estado === "UT") {
-            return "6.65%";
-        }
-        if (estado === "NV") {
-            return "8.00%";
-        }
-        if (estado === "TX") {
-            return "6.25%";
-        }
-        if (estado === "AL") {
-            return "4.00%";
-        }
-        return "0%";
+
+        return impuesto;
     }
     calcularValorImpuesto(precioNeto, estado) {
         let impuesto = this.calcularImpuestoEstado(estado);
         let porcentajeImpuesto = parseFloat(impuesto) / 100;
-        return precioNeto * porcentajeImpuesto;
+        let resultado = precioNeto * porcentajeImpuesto;
+
+        return resultado;
     }
 }
 
