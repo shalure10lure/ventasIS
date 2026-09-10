@@ -988,12 +988,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5b57f05caf8aea91f6b2d66551a03ff819779104",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T03:53:33.000Z",
       "message": "feat: deberia calcular 4% de impuesto adicional de electronicos  sobre 1000",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/5b57f05caf8aea91f6b2d66551a03ff819779104"
     },
     "stats": {
       "total": 7,
@@ -1003,6 +1003,25 @@
     },
     "coverage": 96.47,
     "test_count": 54,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T03:55:02.000Z",
+      "message": "feat: deberia calcular 2% de impuesto adicional de varios  sobre 1000",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.63,
+    "test_count": 56,
     "failed_tests": 0,
     "conclusion": "success"
   }

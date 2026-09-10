@@ -241,5 +241,13 @@ describe("Ventas", () => {
         let ventas = new Ventas(); 
         expect(ventas.calcularImpuestoCategoria("Electronicos", 1000)).toEqual(40.00);
     });
+    it("deberia calcular 2% de impuesto adicional para Vestimenta sobre 1000", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.calcularImpuestoCategoria("Vestimenta", 1000)).toEqual(20.00);
+    });
+    it("deberia calcular 0% de impuesto adicional para Varios sobre 1000", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.calcularImpuestoCategoria("Varios", 1000)).toEqual(0.00);
+    });
 });
 

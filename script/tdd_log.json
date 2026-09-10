@@ -312,9 +312,15 @@
     "testId": 51
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5b57f05caf8aea91f6b2d66551a03ff819779104",
     "commitName": "feat: deberia calcular 4% de impuesto adicional de electronicos  sobre 1000",
     "commitTimestamp": 1789012414784,
     "testId": 52
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia calcular 2% de impuesto adicional de varios  sobre 1000",
+    "commitTimestamp": 1789012504395,
+    "testId": 53
   }
 ]

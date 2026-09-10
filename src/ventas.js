@@ -131,6 +131,12 @@ class Ventas {
         if (categoria === "Electronicos") {
             impuesto = 0.04;
         }
+        if (categoria === "Vestimenta") {
+            impuesto = 0.02;
+        }
+        if (categoria === "Varios") {
+            impuesto = 0.00;
+        }
         return precioNeto * impuesto;
     }
 }
