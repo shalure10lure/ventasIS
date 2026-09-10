@@ -81,8 +81,10 @@ class Ventas {
         }
         return "0%";
     }
-    calcularValorImpuesto() {
-        return 82.50;
+    calcularValorImpuesto(precioNeto, estado) {
+        let impuesto = this.calcularImpuestoEstado(estado);
+        let porcentajeImpuesto = parseFloat(impuesto) / 100;
+        return precioNeto * porcentajeImpuesto;
     }
 }
 
