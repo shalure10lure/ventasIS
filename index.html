@@ -20,7 +20,37 @@
         <option value="TX">Texas (TX)</option>
         <option value="AL">Alabama (AL)</option>
       </select>
+      
       <br><br>
+      
+      <label for="categoria">Categoría de producto:</label>
+      <select id="categoria">
+        <option value="Varios" selected>Varios</option>
+        <option value="Alimentos">Alimentos</option>
+        <option value="Bebidas alcoholicas">Bebidas alcoholicas</option>
+        <option value="Material de escritorio">Material de escritorio</option>
+        <option value="Muebles">Muebles</option>
+        <option value="Electronicos">Electronicos</option>
+        <option value="Vestimenta">Vestimenta</option>
+      </select>
+
+      <br><br>
+
+      <label for="peso">Peso volumétrico por unidad:</label>
+      <input type="number" id="peso" step="0.001">
+      
+      <br><br>
+
+      <label for="tipoCliente">Tipo de cliente:</label>
+      <select id="tipoCliente">
+        <option value="Normal" selected>Normal</option>
+        <option value="Recurrente">Recurrente</option>
+        <option value="Antiguo Recurrente">Antiguo Recurrente</option>
+        <option value="Especial">Especial</option>
+      </select>
+      
+      <br><br>
+
       <input type="submit" value="Totalizar" id="totalizar-button">
       <input type="button" value="Cancelar" id="cancelar-button">
     </form>

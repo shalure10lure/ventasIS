@@ -1368,16 +1368,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3f1e8db8fb614beba6b6fcb0315dd371aaf92afd",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T05:03:39.000Z",
       "message": "feat:aniadiendo calculo del detalle final",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/3f1e8db8fb614beba6b6fcb0315dd371aaf92afd"
     },
     "stats": {
       "total": 33,
       "additions": 33,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 87.82,
+    "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T05:11:08.000Z",
+      "message": "feat:aniadiendo mas campos faltantes",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 30,
+      "additions": 30,
       "deletions": 0,
       "date": "2026-09-10"
     },

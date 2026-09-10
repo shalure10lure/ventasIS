@@ -432,9 +432,15 @@
     "testId": 71
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3f1e8db8fb614beba6b6fcb0315dd371aaf92afd",
     "commitName": "feat:aniadiendo calculo del detalle final",
     "commitTimestamp": 1789016620769,
     "testId": 72
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:aniadiendo mas campos faltantes",
+    "commitTimestamp": 1789017070101,
+    "testId": 73
   }
 ]
