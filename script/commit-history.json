@@ -1292,12 +1292,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0d29d175f7fd9d61ab22af33e9fd14e2ee9b4ea6",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T04:44:07.000Z",
       "message": "feat: dbe aplicar descuento fijo depende del cliente y recio",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/0d29d175f7fd9d61ab22af33e9fd14e2ee9b4ea6"
     },
     "stats": {
       "total": 24,
@@ -1307,6 +1307,25 @@
     },
     "coverage": 95.17,
     "test_count": 86,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T04:46:07.000Z",
+      "message": "feat: dbe aplicar descuento fijo depende del cliente y recio",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 95.24,
+    "test_count": 88,
     "failed_tests": 0,
     "conclusion": "success"
   }

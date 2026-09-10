@@ -227,6 +227,9 @@ class Ventas {
         if (tipoCliente === "Recurrente" && categoria === "Alimentos" &&precioNeto > 3000) {
             return  100;
         }
+        if (tipoCliente === "Especial" && categoria === "Electronicos" && precioNeto > 7000) {
+            return 200;
+        }
         return 0;
     }
 }

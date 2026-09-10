@@ -383,4 +383,13 @@ describe("Ventas", () => {
        let ventas = new Ventas(); 
        expect(ventas.calcularDescuentoFijo("Recurrente", "Electronicos", 3500)).toEqual(0);
     });
+    it("deberia aplicar descuento fijo de 200 para Especial en Electronicos con precio neto de 8000", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.calcularDescuentoFijo("Especial", "Electronicos", 8000)).toEqual(200);
+    });
+
+    it("no deberia aplicar descuento fijo para Especial en Electronicos con precio neto de 7000", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.calcularDescuentoFijo("Especial", "Electronicos", 7000)).toEqual(0);
+    });
 });
