@@ -221,5 +221,13 @@ describe("Ventas", () => {
         let ventas = new Ventas(); 
         expect(ventas.seleccionarCategoria("Varios")).toEqual("Varios"); 
     });
+    it("deberia calcular 0% de impuesto adicional para Alimentos sobre 1000", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.calcularImpuestoCategoria("Alimentos", 1000)).toEqual(0.00);
+    });
+    it("deberia calcular 7% de impuesto adicional para Bebidas alcoholicas sobre 1000", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.calcularImpuestoCategoria("Bebidas alcoholicas", 1000)).toEqual(70.00);
+    });
 });
 

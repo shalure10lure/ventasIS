@@ -931,12 +931,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ae64a3208e61b74c7b2e6db28aad980ad03e25f1",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T03:44:55.000Z",
       "message": "feat: deberia seleccionar la categoria varios cuando es varios",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/ae64a3208e61b74c7b2e6db28aad980ad03e25f1"
     },
     "stats": {
       "total": 12,
@@ -946,6 +946,25 @@
     },
     "coverage": 96,
     "test_count": 49,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T03:49:37.000Z",
+      "message": "feat: deberia calcular 7% de impuesto adicional para Bebidas alcoholicas sobre 1000",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.2,
+    "test_count": 51,
     "failed_tests": 0,
     "conclusion": "success"
   }

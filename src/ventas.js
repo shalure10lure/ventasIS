@@ -117,6 +117,13 @@ class Ventas {
             return "Categoria no encontrada";
         }
     }
+    calcularImpuestoCategoria(categoria, precioNeto) {
+        let impuesto = 0.00;
+        if (categoria === "Bebidas alcoholicas") {
+            impuesto = 0.07;
+        }
+        return precioNeto * impuesto;
+    }
 }
 
 export default Ventas;

@@ -294,9 +294,15 @@
     "testId": 48
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ae64a3208e61b74c7b2e6db28aad980ad03e25f1",
     "commitName": "feat: deberia seleccionar la categoria varios cuando es varios",
     "commitTimestamp": 1789011896706,
     "testId": 49
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia calcular 7% de impuesto adicional para Bebidas alcoholicas sobre 1000",
+    "commitTimestamp": 1789012178836,
+    "testId": 50
   }
 ]
