@@ -150,9 +150,15 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "57c4e51dc73738d00284683cd1a2e85870de1b54",
     "commitName": "feat:deberia seleccionar UTAH cuando se ingresa UT",
     "commitTimestamp": 1789007064596,
     "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:deberia seleccionar nevada cuando se ingresa nv",
+    "commitTimestamp": 1789007151939,
+    "testId": 26
   }
 ]

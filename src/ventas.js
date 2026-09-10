@@ -49,6 +49,12 @@ class Ventas {
         if (estado === "UT") {
             return "Utah";
         }
+        if (estado === "UT") {
+            return "Utah";
+        }
+        if (estado === "NV") {
+            return "Nevada";
+        }
         return "Estado no encontrado";
     }
 }
