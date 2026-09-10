@@ -174,9 +174,15 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fd52f4918ef3278392123f303dd56edecab156a7",
     "commitName": "feat:deberia retornar 8.25% de impuesto para California",
     "commitTimestamp": 1789007530952,
     "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:deberia retornar 6.65% de impuesto para utah",
+    "commitTimestamp": 1789007646954,
+    "testId": 30
   }
 ]

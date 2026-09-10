@@ -551,12 +551,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fd52f4918ef3278392123f303dd56edecab156a7",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T02:32:08.000Z",
       "message": "feat:deberia retornar 8.25% de impuesto para California",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/fd52f4918ef3278392123f303dd56edecab156a7"
     },
     "stats": {
       "total": 9,
@@ -566,6 +566,25 @@
     },
     "coverage": 95,
     "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T02:34:04.000Z",
+      "message": "feat:deberia retornar 6.65% de impuesto para utah",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 12,
+      "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 93.18,
+    "test_count": 33,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -152,4 +152,8 @@ describe("Ventas", () => {
        let ventas = new Ventas();
        expect(ventas.calcularImpuestoEstado("CA")).toEqual("8.25%");
     });
+    it("deberia retornar 6.65% de impuesto para Utah", () => {
+       let ventas = new Ventas();
+       expect(ventas.calcularImpuestoEstado("UT")).toEqual("6.65%");
+    });
 });

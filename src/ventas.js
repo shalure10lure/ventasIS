@@ -63,9 +63,14 @@ class Ventas {
         }
         return "Estado no encontrado";
     }
-    calcularImpuestoEstado() {
-        
-        return "8.25%";
+    calcularImpuestoEstado(estado) {
+        if (estado === "CA") {
+            return "8.25%";
+        }
+        if (estado === "UT") {
+            return "6.65%";
+        }
+        return "0%";
     }
 }
 
