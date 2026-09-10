@@ -532,12 +532,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "84cd22ca609fb0ff5403e268dfce36a4b4b69731",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T02:29:10.000Z",
       "message": "feat:deberia seleccionar alabama cuando se ingresa al",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/84cd22ca609fb0ff5403e268dfce36a4b4b69731"
     },
     "stats": {
       "total": 7,
@@ -547,6 +547,25 @@
     },
     "coverage": 94.87,
     "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T02:32:08.000Z",
+      "message": "feat:deberia retornar 8.25% de impuesto para California",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 95,
+    "test_count": 32,
     "failed_tests": 0,
     "conclusion": "success"
   }

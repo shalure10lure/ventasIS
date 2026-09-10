@@ -63,6 +63,10 @@ class Ventas {
         }
         return "Estado no encontrado";
     }
+    calcularImpuestoEstado() {
+        
+        return "8.25%";
+    }
 }
 
 export default Ventas;

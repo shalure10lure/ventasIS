@@ -168,9 +168,15 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "84cd22ca609fb0ff5403e268dfce36a4b4b69731",
     "commitName": "feat:deberia seleccionar alabama cuando se ingresa al",
     "commitTimestamp": 1789007352249,
     "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:deberia retornar 8.25% de impuesto para California",
+    "commitTimestamp": 1789007530952,
+    "testId": 29
   }
 ]

@@ -147,4 +147,9 @@ describe("Ventas", () => {
        let ventas = new Ventas();
        expect(ventas.seleccionarEstado("AL")).toEqual("Alabama");
     });
+
+    it("deberia retornar 8.25% de impuesto para California", () => {
+       let ventas = new Ventas();
+       expect(ventas.calcularImpuestoEstado("CA")).toEqual("8.25%");
+    });
 });
