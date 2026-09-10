@@ -330,9 +330,15 @@
     "testId": 54
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2fa7ff45b3dba38b35f6f2dc0703066a3613698d",
     "commitName": "feat: deberia calcular 0% de descuento adicional para bebidas  sobre 1000",
     "commitTimestamp": 1789012781902,
     "testId": 55
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia calcular 1.5% de descuento adicional para material  sobre 1000",
+    "commitTimestamp": 1789012888964,
+    "testId": 56
   }
 ]

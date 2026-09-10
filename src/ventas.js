@@ -144,6 +144,12 @@ class Ventas {
         if (categoria === "Alimentos") {
             return precioNeto * 0.02;
         }
+        if (categoria === "Bebidas alcoholicas") {
+            return precioNeto * 0.00;
+        }
+        if (categoria === "Material de escritorio") {
+            return precioNeto * 0.015;
+        }
         return 0.00;
     }
 }

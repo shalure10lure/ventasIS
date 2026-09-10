@@ -257,5 +257,9 @@ describe("Ventas", () => {
         let ventas = new Ventas(); 
         expect(ventas.calcularDescuentoCategoria("Bebidas alcoholicas", 1000)).toEqual(0.00);
     });
+    it("deberia calcular 1.5% de descuento adicional para material de escritorio sobre 1000", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.calcularDescuentoCategoria("Material de escritorio", 1000)).toEqual(15.00);
+    });
 });
 

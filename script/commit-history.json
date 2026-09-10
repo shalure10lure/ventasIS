@@ -1045,12 +1045,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2fa7ff45b3dba38b35f6f2dc0703066a3613698d",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T03:59:39.000Z",
       "message": "feat: deberia calcular 0% de descuento adicional para bebidas  sobre 1000",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/2fa7ff45b3dba38b35f6f2dc0703066a3613698d"
     },
     "stats": {
       "total": 11,
@@ -1060,6 +1060,25 @@
     },
     "coverage": 96.74,
     "test_count": 58,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T04:01:27.000Z",
+      "message": "feat: deberia calcular 1.5% de descuento adicional para material  sobre 1000",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 95.83,
+    "test_count": 59,
     "failed_tests": 0,
     "conclusion": "success"
   }
