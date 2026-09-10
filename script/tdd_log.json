@@ -414,9 +414,15 @@
     "testId": 68
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d0800389f5fad38b09525a6f507e9699ec017e98",
     "commitName": "feat: dbe aplicar descuento fijo depende del cliente y recio",
     "commitTimestamp": 1789015568826,
     "testId": 69
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: dbe aplicar descuento fijo depende del cliente y precio",
+    "commitTimestamp": 1789015612666,
+    "testId": 70
   }
 ]
