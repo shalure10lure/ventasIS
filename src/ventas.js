@@ -42,8 +42,14 @@ class Ventas {
         return precioNeto - descuentoCalculado;
     }
 
-    seleccionarEstado() {
-        return "California";
+    seleccionarEstado(estado) {
+        if (estado === "CA") {
+            return "California";
+        }
+        if (estado === "UT") {
+            return "Utah";
+        }
+        return "Estado no encontrado";
     }
 }
 

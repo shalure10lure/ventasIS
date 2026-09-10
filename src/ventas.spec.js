@@ -131,4 +131,9 @@ describe("Ventas", () => {
        let ventas = new Ventas();
        expect(ventas.seleccionarEstado("CA")).toEqual("California");
     });
+    it("deberia seleccionar Utah cuando se ingresa UT", () => {
+       let ventas = new Ventas();
+       expect(ventas.seleccionarEstado("UT")).toEqual("Utah");
+    });
+    
 });
