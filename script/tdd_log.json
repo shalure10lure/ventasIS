@@ -240,9 +240,15 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f28dc6e888d35acd49dc1b935310d76c057c841d",
     "commitName": "refactor: mejorando la parte de presentacion",
     "commitTimestamp": 1789009713158,
     "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: mejorar formulario y mostrar detalle de venta",
+    "commitTimestamp": 1789010593023,
+    "testId": 41
   }
 ]
