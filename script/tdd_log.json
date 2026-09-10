@@ -282,9 +282,15 @@
     "testId": 46
   },
   {
-    "commitId": "HEAD",
+    "commitId": "50dcc500bd35df88d9ff890929b81bc17bf240b4",
     "commitName": "feat: deberia seleccionar la categoria muebles  cuando se ingresa muebles",
     "commitTimestamp": 1789011761179,
     "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia seleccionar la categoria electronicos cuando es electronicos",
+    "commitTimestamp": 1789011817751,
+    "testId": 48
   }
 ]

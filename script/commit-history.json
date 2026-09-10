@@ -893,12 +893,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "50dcc500bd35df88d9ff890929b81bc17bf240b4",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T03:42:39.000Z",
       "message": "feat: deberia seleccionar la categoria muebles  cuando se ingresa muebles",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/50dcc500bd35df88d9ff890929b81bc17bf240b4"
     },
     "stats": {
       "total": 6,
@@ -908,6 +908,25 @@
     },
     "coverage": 95.65,
     "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T03:43:36.000Z",
+      "message": "feat: deberia seleccionar la categoria electronicos cuando es electronicos",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 95.77,
+    "test_count": 47,
     "failed_tests": 0,
     "conclusion": "success"
   }

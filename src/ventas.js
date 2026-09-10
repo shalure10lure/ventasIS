@@ -107,6 +107,8 @@ class Ventas {
             return "Material de escritorio";
         } else if(categoria==="Muebles"){
             return "Muebles";
+        } else if(categoria==="Electronicos"){
+            return "Electronicos";
         } else {
             return "Categoria no encontrada";
         }
