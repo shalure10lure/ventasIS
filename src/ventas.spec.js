@@ -287,5 +287,15 @@ describe("Ventas", () => {
        let ventas = new Ventas(); 
        expect(ventas.validarPesoVolumetrico(10)).toEqual("Peso valido");
     });
+    
+    it("deberia rechazar un peso volumetrico de 0", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.validarPesoVolumetrico(0)).toEqual("Peso invalido");
+    });
+
+    it("deberia rechazar un peso volumetrico negativo", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.validarPesoVolumetrico(-5)).toEqual("Peso invalido");
+    });
 });
 

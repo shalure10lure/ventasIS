@@ -354,9 +354,15 @@
     "testId": 58
   },
   {
-    "commitId": "HEAD",
+    "commitId": "25f32a1a3573f49edc4989c6e56e0c231e7a5ebc",
     "commitName": "feat: deberia aceptar un peso volumetrico mayor de 0",
     "commitTimestamp": 1789013533863,
     "testId": 59
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia rechazar un peso volumetrico menor de 0",
+    "commitTimestamp": 1789013615630,
+    "testId": 60
   }
 ]
