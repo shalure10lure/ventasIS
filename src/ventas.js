@@ -90,8 +90,12 @@ class Ventas {
         return resultado;
     }
 
-    confirmarCompra(){
-        return "Compra confirmada";
+    confirmarCompra(cantidad, precio) {
+        if (cantidad && precio) {
+            return "Compra confirmada";
+        } else {
+            return "Compra no confirmada";
+        }
     }
 }
 

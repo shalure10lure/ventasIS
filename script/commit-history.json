@@ -798,12 +798,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7b294994691d858522eb9fd9ae9901c1eb1f1540",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T03:30:15.000Z",
       "message": "feat: deberia confirmar la compra cuando la cantidad y el precio son validos",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/7b294994691d858522eb9fd9ae9901c1eb1f1540"
     },
     "stats": {
       "total": 8,
@@ -813,6 +813,25 @@
     },
     "coverage": 96.55,
     "test_count": 41,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T03:32:42.000Z",
+      "message": "feat: deberia mostrar error cuando se intenta confirmar una compra sin cantidad",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 10,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.67,
+    "test_count": 42,
     "failed_tests": 0,
     "conclusion": "success"
   }

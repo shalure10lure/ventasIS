@@ -189,4 +189,8 @@ describe("Ventas", () => {
        let ventas = new Ventas();
        expect(ventas.confirmarCompra(2, 500)).toEqual("Compra confirmada");
     });
+    it("deberia mostrar error cuando se intenta confirmar una compra sin cantidad", () => {
+       let ventas = new Ventas();
+       expect(ventas.confirmarCompra("", 500)).toEqual("Compra no confirmada");
+    });
 });

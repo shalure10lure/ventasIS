@@ -252,9 +252,15 @@
     "testId": 41
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7b294994691d858522eb9fd9ae9901c1eb1f1540",
     "commitName": "feat: deberia confirmar la compra cuando la cantidad y el precio son validos",
     "commitTimestamp": 1789011017254,
     "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia mostrar error cuando se intenta confirmar una compra sin cantidad",
+    "commitTimestamp": 1789011164615,
+    "testId": 43
   }
 ]
