@@ -1349,12 +1349,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0fab1cda1589fd852f61eef1a269ddb2264dff98",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T04:57:21.000Z",
       "message": "refactory: mejorando las funciones con buenas practicas",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/0fab1cda1589fd852f61eef1a269ddb2264dff98"
     },
     "stats": {
       "total": 201,
@@ -1363,6 +1363,25 @@
       "date": "2026-09-10"
     },
     "coverage": 97.16,
+    "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T05:03:39.000Z",
+      "message": "feat:aniadiendo calculo del detalle final",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 33,
+      "additions": 33,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 87.82,
     "test_count": 90,
     "failed_tests": 0,
     "conclusion": "success"

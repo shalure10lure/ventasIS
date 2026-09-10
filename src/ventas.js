@@ -235,6 +235,39 @@ class Ventas {
         }
         return descuento;
     }
+    calculadDetalleCompra(cantidad,precio,estado,categoria,peso,tipoCliente){
+        const precioNeto = this.calcularPrecioNeto(cantidad,precio);
+        if (typeof precioNeto === "string") {
+            return {
+                error: precioNeto
+            };
+        }
+        const descuentoGeneral = this.calcularDescuento(precioNeto);
+        const valorDescuentoGeneral =precioNeto -this.calcularPrecioDespuesDescuento(precioNeto,descuentoGeneral);
+        const descuentoCategoria =this.calcularDescuentoCategoria(categoria, precioNeto);
+        const descuentoFijo =this.calcularDescuentoFijo(tipoCliente,categoria,precioNeto);
+        const precioConDescuento = precioNeto - valorDescuentoGeneral - descuentoCategoria - descuentoFijo;
+        const impuestoEstado = this.calcularValorImpuesto(precioConDescuento, estado);
+        const impuestoCategoria = this.calcularImpuestoCategoria(categoria, precioConDescuento);
+        const costoEnvio = this.calcularCostoEnvio(cantidad, peso);
+        const descuentoEnvio = this.calcularDescuentoCliente(tipoCliente, costoEnvio);
+        const envioFinal = costoEnvio - descuentoEnvio;
+        const total = precioConDescuento + impuestoEstado + impuestoCategoria+ envioFinal;
+        return {
+            precioNeto: precioNeto,
+            descuentoGeneral: descuentoGeneral,
+            valorDescuentoGeneral: valorDescuentoGeneral,
+            descuentoCategoria: descuentoCategoria,
+            descuentoFijo: descuentoFijo,
+            precioConDescuentos: precioConDescuentos,
+            impuestoEstado: impuestoEstado,
+            impuestoCategoria: impuestoCategoria,
+            costoEnvio: costoEnvio,
+            descuentoEnvio: descuentoEnvio,
+            envioFinal: envioFinal,
+            total: total
+        };
+    }
 }
 
 export default Ventas;

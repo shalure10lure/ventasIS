@@ -426,9 +426,15 @@
     "testId": 70
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0fab1cda1589fd852f61eef1a269ddb2264dff98",
     "commitName": "refactory: mejorando las funciones con buenas practicas",
     "commitTimestamp": 1789016244745,
     "testId": 71
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:aniadiendo calculo del detalle final",
+    "commitTimestamp": 1789016620769,
+    "testId": 72
   }
 ]
