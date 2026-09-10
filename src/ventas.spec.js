@@ -249,5 +249,9 @@ describe("Ventas", () => {
         let ventas = new Ventas(); 
         expect(ventas.calcularImpuestoCategoria("Varios", 1000)).toEqual(0.00);
     });
+    it("deberia calcular 2% de descuento adicional para alimentos sobre 1000", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.calcularDescuentoCategoria("Alimentos", 1000)).toEqual(20.00);
+    });
 });
 

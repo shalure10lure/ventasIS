@@ -318,9 +318,15 @@
     "testId": 52
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a3daaf82f9abde63f4d62633c6cab3c1c12642e2",
     "commitName": "feat: deberia calcular 2% de impuesto adicional de varios  sobre 1000",
     "commitTimestamp": 1789012504395,
     "testId": 53
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia calcular 2% de descuento adicional para alimentos sobre 1000",
+    "commitTimestamp": 1789012702771,
+    "testId": 54
   }
 ]

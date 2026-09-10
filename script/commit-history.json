@@ -1007,12 +1007,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a3daaf82f9abde63f4d62633c6cab3c1c12642e2",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T03:55:02.000Z",
       "message": "feat: deberia calcular 2% de impuesto adicional de varios  sobre 1000",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/a3daaf82f9abde63f4d62633c6cab3c1c12642e2"
     },
     "stats": {
       "total": 14,
@@ -1022,6 +1022,25 @@
     },
     "coverage": 96.63,
     "test_count": 56,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T03:58:21.000Z",
+      "message": "feat: deberia calcular 2% de descuento adicional para alimentos sobre 1000",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.67,
+    "test_count": 57,
     "failed_tests": 0,
     "conclusion": "success"
   }

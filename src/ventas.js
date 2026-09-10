@@ -139,6 +139,10 @@ class Ventas {
         }
         return precioNeto * impuesto;
     }
+
+    calcularDescuentoCategoria(){
+        return 20.00;
+    }
 }
 
 export default Ventas;
