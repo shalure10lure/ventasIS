@@ -253,5 +253,9 @@ describe("Ventas", () => {
         let ventas = new Ventas(); 
         expect(ventas.calcularDescuentoCategoria("Alimentos", 1000)).toEqual(20.00);
     });
+    it("deberia calcular 0% de descuento adicional para bebidas alcoholicas sobre 1000", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.calcularDescuentoCategoria("Bebidas alcoholicas", 1000)).toEqual(0.00);
+    });
 });
 

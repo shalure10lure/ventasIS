@@ -140,8 +140,11 @@ class Ventas {
         return precioNeto * impuesto;
     }
 
-    calcularDescuentoCategoria(){
-        return 20.00;
+    calcularDescuentoCategoria(categoria, precioNeto) {
+        if (categoria === "Alimentos") {
+            return precioNeto * 0.02;
+        }
+        return 0.00;
     }
 }
 

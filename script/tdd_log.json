@@ -324,9 +324,15 @@
     "testId": 53
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f4d8a6217adbd8c530d8354976e4d5b50d02f74e",
     "commitName": "feat: deberia calcular 2% de descuento adicional para alimentos sobre 1000",
     "commitTimestamp": 1789012702771,
     "testId": 54
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia calcular 0% de descuento adicional para bebidas  sobre 1000",
+    "commitTimestamp": 1789012781902,
+    "testId": 55
   }
 ]
