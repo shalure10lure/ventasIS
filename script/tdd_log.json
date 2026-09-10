@@ -390,9 +390,15 @@
     "testId": 64
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fe686c9b56b71364780d540bd9ec1e6012df7e28",
     "commitName": "feat: deberia seleccionar el tipo de cliente Recurrente",
     "commitTimestamp": 1789014755347,
     "testId": 65
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia seleccionar el tipo de cliente especial y antiguo recurrente",
+    "commitTimestamp": 1789014993708,
+    "testId": 66
   }
 ]

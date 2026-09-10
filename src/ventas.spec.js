@@ -336,5 +336,14 @@ describe("Ventas", () => {
        let ventas = new Ventas(); 
        expect(ventas.seleccionarTipoCliente("Recurrente")).toEqual("Recurrente");
     });
+    it("deberia seleccionar el tipo de cliente Antiguo Recurrente", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.seleccionarTipoCliente("Antiguo Recurrente")).toEqual("Antiguo Recurrente");
+    });
+
+    it("deberia seleccionar el tipo de cliente Especial", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.seleccionarTipoCliente("Especial")).toEqual("Especial");
+    });
 });
 

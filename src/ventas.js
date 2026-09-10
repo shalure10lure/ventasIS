@@ -202,7 +202,13 @@ class Ventas {
             return "Normal";
         } else if (tipoCliente === "Recurrente") {
             return "Recurrente";
-        } 
+        } else if (tipoCliente === "Antiguo Recurrente") {
+            return "Antiguo Recurrente";
+        } else if (tipoCliente === "Especial") {
+            return "Especial";
+        } else {
+            return "Tipo de cliente no encontrado";
+        }
     }
 }
 
