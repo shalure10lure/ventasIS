@@ -817,12 +817,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a1f8f7f8a5c011cbede4b6f28eb453c00dfc8e27",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T03:32:42.000Z",
       "message": "feat: deberia mostrar error cuando se intenta confirmar una compra sin cantidad",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/a1f8f7f8a5c011cbede4b6f28eb453c00dfc8e27"
     },
     "stats": {
       "total": 12,
@@ -832,6 +832,25 @@
     },
     "coverage": 96.67,
     "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T03:36:17.000Z",
+      "message": "feat: deberia seleccionar la categoria Alimentos cuando se ingresa ALIM",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.72,
+    "test_count": 43,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -258,9 +258,15 @@
     "testId": 42
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a1f8f7f8a5c011cbede4b6f28eb453c00dfc8e27",
     "commitName": "feat: deberia mostrar error cuando se intenta confirmar una compra sin cantidad",
     "commitTimestamp": 1789011164615,
     "testId": 43
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia seleccionar la categoria Alimentos cuando se ingresa ALIM",
+    "commitTimestamp": 1789011379196,
+    "testId": 44
   }
 ]

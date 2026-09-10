@@ -193,4 +193,8 @@ describe("Ventas", () => {
        let ventas = new Ventas();
        expect(ventas.confirmarCompra("", 500)).toEqual("Compra no confirmada");
     });
+    it("deberia seleccionar la categoria Alimentos cuando se ingresa ALIM", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.seleccionarCategoria("ALIM")).toEqual("Alimentos"); 
+    });
 });

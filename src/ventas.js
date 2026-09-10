@@ -97,6 +97,10 @@ class Ventas {
             return "Compra no confirmada";
         }
     }
+
+    seleccionarCategoria(){
+        return "Alimentos";
+    }
 }
 
 export default Ventas;
