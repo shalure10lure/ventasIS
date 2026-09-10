@@ -855,12 +855,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8410f90d85bc0636b5c37a93db89c407cc429543",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T03:39:19.000Z",
       "message": "feat: deberia seleccionar la categoria bebidas alcoholicas cuando se ingresa bebidas alcoholicas",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/8410f90d85bc0636b5c37a93db89c407cc429543"
     },
     "stats": {
       "total": 16,
@@ -870,6 +870,25 @@
     },
     "coverage": 95.38,
     "test_count": 44,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T03:41:23.000Z",
+      "message": "feat: deberia seleccionar la categoria material cuando se ingresa material",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 95.52,
+    "test_count": 45,
     "failed_tests": 0,
     "conclusion": "success"
   }

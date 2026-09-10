@@ -103,6 +103,8 @@ class Ventas {
             return "Alimentos";
         } else if (categoria === "Bebidas alcoholicas") {
             return "Bebidas alcoholicas";
+        } else if(categoria==="Material de escritorio"){
+            return "Material de escritorio";
         } else {
             return "Categoria no encontrada";
         }

@@ -201,4 +201,9 @@ describe("Ventas", () => {
         let ventas = new Ventas(); 
         expect(ventas.seleccionarCategoria("Bebidas alcoholicas")).toEqual("Bebidas alcoholicas"); 
     });
+    it("deberia seleccionar la categoria Material de escritorio cuando se ingresa Material de escritorio", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.seleccionarCategoria("Material de escritorio")).toEqual("Material de escritorio"); 
+    });
 });
+

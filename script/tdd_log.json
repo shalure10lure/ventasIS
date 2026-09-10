@@ -270,9 +270,15 @@
     "testId": 44
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8410f90d85bc0636b5c37a93db89c407cc429543",
     "commitName": "feat: deberia seleccionar la categoria bebidas alcoholicas cuando se ingresa bebidas alcoholicas",
     "commitTimestamp": 1789011561129,
     "testId": 45
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia seleccionar la categoria material cuando se ingresa material",
+    "commitTimestamp": 1789011685299,
+    "testId": 46
   }
 ]
