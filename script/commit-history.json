@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ce75aeec2c8eb16bea49f1e9faa3217e4fcc4e55",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T02:39:25.000Z",
       "message": "feat:deberia retornar 6.25% de impuesto para texas",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/ce75aeec2c8eb16bea49f1e9faa3217e4fcc4e55"
     },
     "stats": {
       "total": 7,
@@ -623,6 +623,25 @@
     },
     "coverage": 93.75,
     "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T02:40:54.000Z",
+      "message": "feat:deberia retornar 4.00% de impuesto para alabama",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 94,
+    "test_count": 36,
     "failed_tests": 0,
     "conclusion": "success"
   }

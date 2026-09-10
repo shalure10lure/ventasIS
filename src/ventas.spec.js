@@ -164,4 +164,8 @@ describe("Ventas", () => {
        let ventas = new Ventas();
        expect(ventas.calcularImpuestoEstado("TX")).toEqual("6.25%");
     });
+    it("deberia retornar 4.00% de impuesto para Alabama", () => {
+       let ventas = new Ventas();
+       expect(ventas.calcularImpuestoEstado("AL")).toEqual("4.00%");
+    });
 });

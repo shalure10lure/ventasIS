@@ -192,9 +192,15 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ce75aeec2c8eb16bea49f1e9faa3217e4fcc4e55",
     "commitName": "feat:deberia retornar 6.25% de impuesto para texas",
     "commitTimestamp": 1789007967156,
     "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:deberia retornar 4.00% de impuesto para alabama",
+    "commitTimestamp": 1789008056745,
+    "testId": 33
   }
 ]
