@@ -1387,12 +1387,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fca36dda28e21afe17f08b070f4f8d1de25f8f5c",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T05:11:08.000Z",
       "message": "feat:aniadiendo mas campos faltantes",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/fca36dda28e21afe17f08b070f4f8d1de25f8f5c"
     },
     "stats": {
       "total": 30,
@@ -1401,6 +1401,25 @@
       "date": "2026-09-10"
     },
     "coverage": 87.82,
+    "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T05:27:34.000Z",
+      "message": "refactor:mejornado la parte del presnter",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 117,
+      "additions": 77,
+      "deletions": 40,
+      "date": "2026-09-10"
+    },
+    "coverage": 86.71,
     "test_count": 90,
     "failed_tests": 0,
     "conclusion": "success"

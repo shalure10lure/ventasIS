@@ -438,9 +438,15 @@
     "testId": 72
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fca36dda28e21afe17f08b070f4f8d1de25f8f5c",
     "commitName": "feat:aniadiendo mas campos faltantes",
     "commitTimestamp": 1789017070101,
     "testId": 73
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor:mejornado la parte del presnter",
+    "commitTimestamp": 1789018056087,
+    "testId": 74
   }
 ]

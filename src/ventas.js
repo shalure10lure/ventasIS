@@ -235,25 +235,28 @@ class Ventas {
         }
         return descuento;
     }
-    calculadDetalleCompra(cantidad,precio,estado,categoria,peso,tipoCliente){
-        const precioNeto = this.calcularPrecioNeto(cantidad,precio);
+    calcularDetalleCompra(cantidad, precio, estado, categoria, peso, tipoCliente) {
+        const precioNeto = this.calcularPrecioNeto(cantidad, precio);
+        let resultado;
         if (typeof precioNeto === "string") {
-            return {
-                error: precioNeto
-            };
-        }
-        const descuentoGeneral = this.calcularDescuento(precioNeto);
-        const valorDescuentoGeneral =precioNeto -this.calcularPrecioDespuesDescuento(precioNeto,descuentoGeneral);
-        const descuentoCategoria =this.calcularDescuentoCategoria(categoria, precioNeto);
-        const descuentoFijo =this.calcularDescuentoFijo(tipoCliente,categoria,precioNeto);
-        const precioConDescuento = precioNeto - valorDescuentoGeneral - descuentoCategoria - descuentoFijo;
-        const impuestoEstado = this.calcularValorImpuesto(precioConDescuento, estado);
-        const impuestoCategoria = this.calcularImpuestoCategoria(categoria, precioConDescuento);
-        const costoEnvio = this.calcularCostoEnvio(cantidad, peso);
-        const descuentoEnvio = this.calcularDescuentoCliente(tipoCliente, costoEnvio);
-        const envioFinal = costoEnvio - descuentoEnvio;
-        const total = precioConDescuento + impuestoEstado + impuestoCategoria+ envioFinal;
-        return {
+           resultado = {
+               error: precioNeto
+           };
+        } else {
+          const descuentoGeneral = this.calcularDescuento(precioNeto);
+          const precioDespuesDescuento =this.calcularPrecioDespuesDescuento(precioNeto,descuentoGeneral);
+          const valorDescuentoGeneral =precioNeto - precioDespuesDescuento;
+          const descuentoCategoria =this.calcularDescuentoCategoria(categoria,precioNeto);
+          const descuentoFijo =this.calcularDescuentoFijo(tipoCliente,categoria,precioNeto);
+          const precioConDescuentos =precioDespuesDescuento -descuentoCategoria -descuentoFijo;
+          const impuestoEstado =this.calcularValorImpuesto(precioConDescuentos,estado);
+          const impuestoCategoria =this.calcularImpuestoCategoria(categoria,precioConDescuentos);
+          const costoEnvio =this.calcularCostoEnvio(cantidad,peso);
+          const descuentoEnvio =this.calcularDescuentoCliente(tipoCliente,costoEnvio);
+          const envioFinal =costoEnvio - descuentoEnvio;
+          const total =precioConDescuentos +impuestoEstado +impuestoCategoria +envioFinal;
+
+          resultado = {
             precioNeto: precioNeto,
             descuentoGeneral: descuentoGeneral,
             valorDescuentoGeneral: valorDescuentoGeneral,
@@ -266,7 +269,9 @@ class Ventas {
             descuentoEnvio: descuentoEnvio,
             envioFinal: envioFinal,
             total: total
-        };
+          };
+        }
+        return resultado;
     }
 }
 
