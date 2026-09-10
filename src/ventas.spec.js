@@ -327,5 +327,14 @@ describe("Ventas", () => {
        expect(ventas.calcularCostoEnvio(21,10)).toEqual(9.00);
     });
 
+    it("deberia seleccionar el tipo de cliente Normal", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.seleccionarTipoCliente("Normal")).toEqual("Normal");
+    });
+
+    it("deberia seleccionar el tipo de cliente Recurrente", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.seleccionarTipoCliente("Recurrente")).toEqual("Recurrente");
+    });
 });
 

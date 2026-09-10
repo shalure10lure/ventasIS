@@ -1216,12 +1216,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d1f0a37fec3cc6a242790def169988a73d0a2892",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T04:29:02.000Z",
       "message": "feat: deberia cobrar 9 cuando el peso total es 210",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/d1f0a37fec3cc6a242790def169988a73d0a2892"
     },
     "stats": {
       "total": 26,
@@ -1231,6 +1231,25 @@
     },
     "coverage": 95.97,
     "test_count": 74,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T04:32:33.000Z",
+      "message": "feat: deberia seleccionar el tipo de cliente Recurrente",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 17,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.09,
+    "test_count": 76,
     "failed_tests": 0,
     "conclusion": "success"
   }

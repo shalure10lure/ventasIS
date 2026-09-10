@@ -196,6 +196,14 @@ class Ventas {
         }
         return 0.00;
     }
+
+    seleccionarTipoCliente(tipoCliente) {
+        if (tipoCliente === "Normal") {
+            return "Normal";
+        } else if (tipoCliente === "Recurrente") {
+            return "Recurrente";
+        } 
+    }
 }
 
 export default Ventas;
