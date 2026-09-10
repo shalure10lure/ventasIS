@@ -402,9 +402,15 @@
     "testId": 66
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2cfeafff7a55b819a506355dcd51572ec22ec50c",
     "commitName": "feat: deberia calcular descuento para el tipo de cliente",
     "commitTimestamp": 1789015136435,
     "testId": 67
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: dbe aplicar descuento fijo depende del cliente y recio",
+    "commitTimestamp": 1789015449039,
+    "testId": 68
   }
 ]

@@ -1273,12 +1273,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2cfeafff7a55b819a506355dcd51572ec22ec50c",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T04:38:54.000Z",
       "message": "feat: deberia calcular descuento para el tipo de cliente",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/2cfeafff7a55b819a506355dcd51572ec22ec50c"
     },
     "stats": {
       "total": 34,
@@ -1288,6 +1288,25 @@
     },
     "coverage": 95.07,
     "test_count": 82,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T04:44:07.000Z",
+      "message": "feat: dbe aplicar descuento fijo depende del cliente y recio",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 24,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 95.17,
+    "test_count": 86,
     "failed_tests": 0,
     "conclusion": "success"
   }

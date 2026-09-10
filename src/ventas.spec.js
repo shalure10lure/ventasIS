@@ -365,4 +365,22 @@ describe("Ventas", () => {
        let ventas = new Ventas(); 
        expect(ventas.calcularDescuentoCliente("Especial", 100)).toEqual(1.50);
     });
+    it("deberia aplicar descuento fijo de 100 para Recurrente en Alimentos con precio neto de 3500", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.calcularDescuentoFijo("Recurrente", "Alimentos", 3500)).toEqual(100);
+    });
+
+    it("no deberia aplicar descuento fijo para Recurrente en Alimentos con precio neto de 3000", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.calcularDescuentoFijo("Recurrente", "Alimentos", 3000)).toEqual(0);
+    });
+    it("no deberia aplicar descuento fijo para Normal en Alimentos con precio neto de 3500", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.calcularDescuentoFijo("Normal", "Alimentos", 3500)).toEqual(0);
+    });
+
+    it("no deberia aplicar descuento fijo para Recurrente en Electronicos con precio neto de 3500", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.calcularDescuentoFijo("Recurrente", "Electronicos", 3500)).toEqual(0);
+    });
 });
