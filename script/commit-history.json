@@ -1254,12 +1254,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "17c21567816631d1d88ae8fea6b198f967e5988d",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T04:36:31.000Z",
       "message": "feat: deberia seleccionar el tipo de cliente especial y antiguo recurrente",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/17c21567816631d1d88ae8fea6b198f967e5988d"
     },
     "stats": {
       "total": 17,
@@ -1269,6 +1269,25 @@
     },
     "coverage": 95.49,
     "test_count": 78,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T04:38:54.000Z",
+      "message": "feat: deberia calcular descuento para el tipo de cliente",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 34,
+      "additions": 33,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 95.07,
+    "test_count": 82,
     "failed_tests": 0,
     "conclusion": "success"
   }

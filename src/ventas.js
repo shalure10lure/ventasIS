@@ -210,6 +210,19 @@ class Ventas {
             return "Tipo de cliente no encontrado";
         }
     }
+    calcularDescuentoCliente(tipoCliente, precioNeto) {
+        if (tipoCliente === "Normal") {
+            return 0;
+        } else if (tipoCliente === "Recurrente") {
+            return precioNeto * 0.005;
+        } else if (tipoCliente === "Antiguo Recurrente") {
+            return precioNeto * 0.01;
+        } else if (tipoCliente === "Especial") {
+            return precioNeto * 0.015;
+        } else {
+            return 0;
+        }
+    }
 }
 
 export default Ventas;

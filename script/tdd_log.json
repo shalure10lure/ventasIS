@@ -396,9 +396,15 @@
     "testId": 65
   },
   {
-    "commitId": "HEAD",
+    "commitId": "17c21567816631d1d88ae8fea6b198f967e5988d",
     "commitName": "feat: deberia seleccionar el tipo de cliente especial y antiguo recurrente",
     "commitTimestamp": 1789014993708,
     "testId": 66
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia calcular descuento para el tipo de cliente",
+    "commitTimestamp": 1789015136435,
+    "testId": 67
   }
 ]

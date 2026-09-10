@@ -345,5 +345,24 @@ describe("Ventas", () => {
        let ventas = new Ventas(); 
        expect(ventas.seleccionarTipoCliente("Especial")).toEqual("Especial");
     });
-});
 
+    it("deberia calcular 0% de descuento de envio para cliente Normal sobre 100", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.calcularDescuentoCliente("Normal", 100)).toEqual(0);
+    });
+
+    it("deberia calcular 0.5% de descuento de envio para cliente Recurrente sobre 100", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.calcularDescuentoCliente("Recurrente", 100)).toEqual(0.50);
+    });
+
+    it("deberia calcular 1% de descuento de envio para cliente Antiguo Recurrente sobre 100", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.calcularDescuentoCliente("Antiguo Recurrente", 100)).toEqual(1.00);
+    });
+
+    it("deberia calcular 1.5% de descuento de envio para cliente Especial sobre 100", () => {
+       let ventas = new Ventas(); 
+       expect(ventas.calcularDescuentoCliente("Especial", 100)).toEqual(1.50);
+    });
+});
