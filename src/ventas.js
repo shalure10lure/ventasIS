@@ -91,146 +91,149 @@ class Ventas {
     }
 
     confirmarCompra(cantidad, precio) {
+        let resultado;
         if (cantidad && precio) {
-            return "Compra confirmada";
+            resultado = "Compra confirmada";
         } else {
-            return "Compra no confirmada";
+            resultado = "Compra no confirmada";
         }
+        return resultado;
     }
 
     seleccionarCategoria(categoria) {
+        let resultado;
         if (categoria === "Alimentos") {
-            return "Alimentos";
+            resultado = "Alimentos";
         } else if (categoria === "Bebidas alcoholicas") {
-            return "Bebidas alcoholicas";
-        } else if(categoria==="Material de escritorio"){
-            return "Material de escritorio";
-        } else if(categoria==="Muebles"){
-            return "Muebles";
-        } else if(categoria==="Electronicos"){
-            return "Electronicos";
-        } else if(categoria==="Vestimenta"){
-            return "Vestimenta";
-        } else if(categoria==="Varios"){
-            return "Varios";
+            resultado = "Bebidas alcoholicas";
+        } else if (categoria === "Material de escritorio") {
+            resultado = "Material de escritorio";
+        } else if (categoria === "Muebles") {
+            resultado = "Muebles";
+        } else if (categoria === "Electronicos") {
+            resultado = "Electronicos";
+        } else if (categoria === "Vestimenta") {
+            resultado = "Vestimenta";
+        } else if (categoria === "Varios") {
+            resultado = "Varios";
         } else {
-            return "Categoria no encontrada";
+            resultado = "Categoria no encontrada";
         }
+        return resultado;
     }
+    
     calcularImpuestoCategoria(categoria, precioNeto) {
-        let impuesto = 0.00;
+        let porcentajeImpuesto;
         if (categoria === "Bebidas alcoholicas") {
-            impuesto = 0.07;
+            porcentajeImpuesto = 0.07;
+        } else if (categoria === "Muebles") {
+            porcentajeImpuesto = 0.03;
+        } else if (categoria === "Electronicos") {
+            porcentajeImpuesto = 0.04;
+        } else if (categoria === "Vestimenta") {
+            porcentajeImpuesto = 0.02;
+        } else {
+            porcentajeImpuesto = 0;
         }
-        if (categoria === "Material de escritorio") {
-            impuesto = 0.00;
-        }
-        if (categoria === "Muebles") {
-            impuesto = 0.03;
-        }
-        if (categoria === "Electronicos") {
-            impuesto = 0.04;
-        }
-        if (categoria === "Vestimenta") {
-            impuesto = 0.02;
-        }
-        if (categoria === "Varios") {
-            impuesto = 0.00;
-        }
-        return precioNeto * impuesto;
+        const impuesto = precioNeto * porcentajeImpuesto;
+        return impuesto;
     }
 
     calcularDescuentoCategoria(categoria, precioNeto) {
+        let porcentajeDescuento;
         if (categoria === "Alimentos") {
-            return precioNeto * 0.02;
+            porcentajeDescuento = 0.02;
+        } else if (categoria === "Material de escritorio") {
+            porcentajeDescuento = 0.015;
+        } else if (categoria === "Electronicos") {
+            porcentajeDescuento = 0.01;
+        } else {
+            porcentajeDescuento = 0;
         }
-        if (categoria === "Bebidas alcoholicas") {
-            return precioNeto * 0.00;
-        }
-        if (categoria === "Material de escritorio") {
-            return precioNeto * 0.015;
-        }
-        if (categoria === "Muebles") {
-            return precioNeto * 0.00;
-        }
-        if (categoria === "Electronicos") {
-            return precioNeto * 0.01;
-        }
-        if (categoria === "Vestimenta") {
-            return precioNeto * 0.00;
-        }
-        if (categoria === "Varios") {
-            return precioNeto * 0.00;
-        }
-        return 0.00;
+        const descuento = precioNeto * porcentajeDescuento;
+        return descuento;
     }
-    validarPesoVolumetrico(peso){
+
+    validarPesoVolumetrico(peso) {
+        let resultado;
         if (peso <= 0) {
-            return "Peso invalido";
-        }else if(peso>=0){
-            return "Peso valido";
+            resultado = "Peso invalido";
+        } else {
+            resultado = "Peso valido";
         }
+        return resultado;
     }
-    calcularCostoEnvio(cantidad,peso){
-        let pesototal= cantidad * peso;
-        if (pesototal >= 0 && pesototal <=10) {
-            return 0;
+
+    calcularCostoEnvio(cantidad, peso) {
+        const pesoTotal = cantidad * peso;
+        let resultado;
+        if (pesoTotal >= 0 && pesoTotal <= 10) {
+            resultado = 0;
+        } else if (pesoTotal <= 20) {
+            resultado = 3.50;
+        } else if (pesoTotal <= 40) {
+            resultado = 5.00;
+        } else if (pesoTotal <= 80) {
+            resultado = 6.00;
+        } else if (pesoTotal <= 100) {
+            resultado = 6.50;
+        } else if (pesoTotal <= 200) {
+            resultado = 8.00;
+        } else {
+            resultado = 9.00;
         }
-        if (pesototal > 10 && pesototal <= 20) {
-            return 3.50;
-        }
-        if (pesototal > 20 && pesototal <= 40) {
-            return 5.00;
-        }
-        if (pesototal > 40 && pesototal <= 80) {
-            return 6.00;
-        }
-        if (pesototal > 80 && pesototal <= 100) {
-            return 6.50;
-        }
-        if (pesototal > 100 && pesototal <= 200) {
-            return 8.00;
-        }
-        if (pesototal > 200) {
-            return 9.00;
-        }
-        return 0.00;
+        return resultado;
     }
 
     seleccionarTipoCliente(tipoCliente) {
+        let resultado;
         if (tipoCliente === "Normal") {
-            return "Normal";
+            resultado = "Normal";
         } else if (tipoCliente === "Recurrente") {
-            return "Recurrente";
+            resultado = "Recurrente";
         } else if (tipoCliente === "Antiguo Recurrente") {
-            return "Antiguo Recurrente";
+            resultado = "Antiguo Recurrente";
         } else if (tipoCliente === "Especial") {
-            return "Especial";
+            resultado = "Especial";
         } else {
-            return "Tipo de cliente no encontrado";
+            resultado = "Tipo de cliente no encontrado";
         }
+        return resultado;
     }
-    calcularDescuentoCliente(tipoCliente, precioNeto) {
-        if (tipoCliente === "Normal") {
-            return 0;
-        } else if (tipoCliente === "Recurrente") {
-            return precioNeto * 0.005;
+
+    calcularDescuentoCliente(tipoCliente, costoEnvio) {
+        let porcentajeDescuento;
+        if (tipoCliente === "Recurrente") {
+            porcentajeDescuento = 0.005;
         } else if (tipoCliente === "Antiguo Recurrente") {
-            return precioNeto * 0.01;
+            porcentajeDescuento = 0.01;
         } else if (tipoCliente === "Especial") {
-            return precioNeto * 0.015;
+            porcentajeDescuento = 0.015;
         } else {
-            return 0;
+            porcentajeDescuento = 0;
         }
+        const descuento = costoEnvio * porcentajeDescuento;
+        return descuento;
     }
+
     calcularDescuentoFijo(tipoCliente, categoria, precioNeto) {
-        if (tipoCliente === "Recurrente" && categoria === "Alimentos" &&precioNeto > 3000) {
-            return  100;
+        let descuento;
+        if (
+            tipoCliente === "Recurrente" &&
+            categoria === "Alimentos" &&
+            precioNeto > 3000
+        ) {
+            descuento = 100;
+        } else if (
+            tipoCliente === "Especial" &&
+            categoria === "Electronicos" &&
+            precioNeto > 7000
+        ) {
+            descuento = 200;
+        } else {
+            descuento = 0;
         }
-        if (tipoCliente === "Especial" && categoria === "Electronicos" && precioNeto > 7000) {
-            return 200;
-        }
-        return 0;
+        return descuento;
     }
 }
 

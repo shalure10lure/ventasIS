@@ -420,9 +420,15 @@
     "testId": 69
   },
   {
-    "commitId": "HEAD",
+    "commitId": "315bada01335618da2f7d47b78c29c1aaea56df0",
     "commitName": "feat: dbe aplicar descuento fijo depende del cliente y precio",
     "commitTimestamp": 1789015612666,
     "testId": 70
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactory: mejorando las funciones con buenas practicas",
+    "commitTimestamp": 1789016244745,
+    "testId": 71
   }
 ]
