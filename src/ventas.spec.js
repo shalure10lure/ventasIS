@@ -269,5 +269,13 @@ describe("Ventas", () => {
         let ventas = new Ventas(); 
         expect(ventas.calcularDescuentoCategoria("Electronicos", 1000)).toEqual(10.00);
     });
+    it("deberia calcular 0% de descuento adicional para  vestimenta sobre 1000", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.calcularDescuentoCategoria("Vestimenta", 1000)).toEqual(0.00);
+    });
+    it("deberia calcular 0% de descuento adicional para  varios sobre 1000", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.calcularDescuentoCategoria("Varios", 1000)).toEqual(0.00);
+    });
 });
 

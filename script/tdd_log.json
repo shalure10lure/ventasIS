@@ -342,9 +342,15 @@
     "testId": 56
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bf8cedbad786661e1b4fa408199cb95df32b9cef",
     "commitName": "feat: deberia calcular 1% de descuento adicional para electronicos sobre 1000",
     "commitTimestamp": 1789013036699,
     "testId": 57
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia calcular 0% de descuento adicional para vestimenta sobre 1000",
+    "commitTimestamp": 1789013154520,
+    "testId": 58
   }
 ]

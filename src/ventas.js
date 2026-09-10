@@ -156,6 +156,12 @@ class Ventas {
         if (categoria === "Electronicos") {
             return precioNeto * 0.01;
         }
+        if (categoria === "Vestimenta") {
+            return precioNeto * 0.00;
+        }
+        if (categoria === "Varios") {
+            return precioNeto * 0.00;
+        }
         return 0.00;
     }
 }

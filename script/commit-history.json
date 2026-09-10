@@ -1083,12 +1083,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bf8cedbad786661e1b4fa408199cb95df32b9cef",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T04:03:54.000Z",
       "message": "feat: deberia calcular 1% de descuento adicional para electronicos sobre 1000",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/bf8cedbad786661e1b4fa408199cb95df32b9cef"
     },
     "stats": {
       "total": 14,
@@ -1098,6 +1098,25 @@
     },
     "coverage": 96,
     "test_count": 61,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T04:05:52.000Z",
+      "message": "feat: deberia calcular 0% de descuento adicional para vestimenta sobre 1000",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.15,
+    "test_count": 63,
     "failed_tests": 0,
     "conclusion": "success"
   }
