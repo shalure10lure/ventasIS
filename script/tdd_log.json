@@ -276,9 +276,15 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4716d7031fb6f6b11990b81b4e7ab33882399d7c",
     "commitName": "feat: deberia seleccionar la categoria material cuando se ingresa material",
     "commitTimestamp": 1789011685299,
     "testId": 46
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia seleccionar la categoria muebles  cuando se ingresa muebles",
+    "commitTimestamp": 1789011761179,
+    "testId": 47
   }
 ]

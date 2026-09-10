@@ -205,5 +205,9 @@ describe("Ventas", () => {
         let ventas = new Ventas(); 
         expect(ventas.seleccionarCategoria("Material de escritorio")).toEqual("Material de escritorio"); 
     });
+    it("deberia seleccionar la categoria Muebles cuando se ingresa Muebles", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.seleccionarCategoria("Muebles")).toEqual("Muebles"); 
+    });
 });
 
