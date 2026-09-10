@@ -288,9 +288,15 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7e1b58b55e710309a5508f36935d3f11d1d915a0",
     "commitName": "feat: deberia seleccionar la categoria electronicos cuando es electronicos",
     "commitTimestamp": 1789011817751,
     "testId": 48
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: deberia seleccionar la categoria varios cuando es varios",
+    "commitTimestamp": 1789011896706,
+    "testId": 49
   }
 ]

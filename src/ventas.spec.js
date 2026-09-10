@@ -213,5 +213,13 @@ describe("Ventas", () => {
         let ventas = new Ventas(); 
         expect(ventas.seleccionarCategoria("Electronicos")).toEqual("Electronicos"); 
     });
+    it("deberia seleccionar la categoria Vestimenta cuando se ingresa Vestimenta", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.seleccionarCategoria("Vestimenta")).toEqual("Vestimenta"); 
+    });
+    it("deberia seleccionar la categoria Varios cuando se ingresa Varios", () => {
+        let ventas = new Ventas(); 
+        expect(ventas.seleccionarCategoria("Varios")).toEqual("Varios"); 
+    });
 });
 

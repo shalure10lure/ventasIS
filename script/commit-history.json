@@ -912,12 +912,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7e1b58b55e710309a5508f36935d3f11d1d915a0",
     "author": "shalure10lure",
     "commit": {
       "date": "2026-09-10T03:43:36.000Z",
       "message": "feat: deberia seleccionar la categoria electronicos cuando es electronicos",
-      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+      "url": "https://github.com/shalure10lure/ventasIS/commit/7e1b58b55e710309a5508f36935d3f11d1d915a0"
     },
     "stats": {
       "total": 6,
@@ -927,6 +927,25 @@
     },
     "coverage": 95.77,
     "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "shalure10lure",
+    "commit": {
+      "date": "2026-09-10T03:44:55.000Z",
+      "message": "feat: deberia seleccionar la categoria varios cuando es varios",
+      "url": "https://github.com/shalure10lure/ventasIS/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96,
+    "test_count": 49,
     "failed_tests": 0,
     "conclusion": "success"
   }

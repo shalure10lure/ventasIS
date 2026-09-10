@@ -109,6 +109,10 @@ class Ventas {
             return "Muebles";
         } else if(categoria==="Electronicos"){
             return "Electronicos";
+        } else if(categoria==="Vestimenta"){
+            return "Vestimenta";
+        } else if(categoria==="Varios"){
+            return "Varios";
         } else {
             return "Categoria no encontrada";
         }
